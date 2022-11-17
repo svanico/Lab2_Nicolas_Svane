@@ -1,0 +1,85 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\Usuario\Documents\Ingenieria 2022\TYDD 2\Lab 2\P_B\simulation\qsim
+vFull_Adder
+Z1 !s100 mYQ4DZFjAUmmbLWN[Wbk83
+Z2 IaD=^NzIf68@LHazPcJae11
+Z3 Vi:fA[ULL]AagJ54O`elmf2
+Z4 dC:\Users\Usuario\Documents\Ingenieria 2022\TYDD 2\Lab 2\P_B\simulation\qsim
+Z5 w1668639662
+Z6 8ParteB_FA.vo
+Z7 FParteB_FA.vo
+L0 31
+Z8 OV;L;10.1d;51
+r1
+31
+Z9 !s90 -work|work|ParteB_FA.vo|
+Z10 o-work work -O0
+Z11 n@full_@adder
+!i10b 1
+!s85 0
+Z12 !s108 1668639663.583000
+Z13 !s107 ParteB_FA.vo|
+!s101 -O0
+vFull_Adder_vlg_check_tst
+!i10b 1
+Z14 !s100 ?>=Ifl]DeL4BIf_aQa@1`2
+Z15 IMW9Y4EcffKAKmCj8c0fTo1
+Z16 V97jSJ9NDNg@WdmHfBFfOM2
+R4
+R5
+Z17 8ParteB_FA.vt
+Z18 FParteB_FA.vt
+L0 63
+R8
+r1
+!s85 0
+31
+Z19 !s108 1668639663.649000
+Z20 !s107 ParteB_FA.vt|
+Z21 !s90 -work|work|ParteB_FA.vt|
+!s101 -O0
+R10
+Z22 n@full_@adder_vlg_check_tst
+vFull_Adder_vlg_sample_tst
+!i10b 1
+Z23 !s100 [oR=1;5b?Gh9nLJ=cJbzE1
+Z24 In89kWSm4O[Zb_Gb94[7SS2
+Z25 Vc=XNhK4X>>OEzXI9j]a090
+R4
+R5
+R17
+R18
+L0 29
+R8
+r1
+!s85 0
+31
+R19
+R20
+R21
+!s101 -O0
+R10
+Z26 n@full_@adder_vlg_sample_tst
+vFull_Adder_vlg_vec_tst
+!i10b 1
+!s100 o:N4zneInMjS3GKU84`dY3
+IaE]e6lgU48<PPgzcYA2Ke3
+Z27 VHYI:eR:j7oHAfOnj01H@K0
+R4
+R5
+R17
+R18
+Z28 L0 185
+R8
+r1
+!s85 0
+31
+R19
+R20
+R21
+!s101 -O0
+R10
+Z29 n@full_@adder_vlg_vec_tst

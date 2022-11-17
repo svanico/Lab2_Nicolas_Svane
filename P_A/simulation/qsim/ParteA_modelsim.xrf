@@ -1,0 +1,14 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/Usuario/Documents/Ingenieria 2022/TYDD 2/Lab 2/P_A/ParteA_NOR.vhd
+source_file = 1, C:/Users/Usuario/Documents/Ingenieria 2022/TYDD 2/Lab 2/P_A/sim.vwf
+source_file = 1, C:/Users/Usuario/Documents/Ingenieria 2022/TYDD 2/Lab 2/P_A/testA.vhd
+source_file = 1, C:/Users/Usuario/Documents/Ingenieria 2022/TYDD 2/Lab 2/P_A/ParteA.bdf
+source_file = 1, C:/Users/Usuario/Documents/Ingenieria 2022/TYDD 2/Lab 2/P_A/db/ParteA.cbx.xml
+source_file = 1, c:/altera/13.0sp1/quartus/libraries/vhdl/ieee/prmtvs_b.vhd
+source_file = 1, c:/altera/13.0sp1/quartus/libraries/vhdl/ieee/prmtvs_p.vhd
+source_file = 1, c:/altera/13.0sp1/quartus/libraries/vhdl/ieee/timing_b.vhd
+source_file = 1, c:/altera/13.0sp1/quartus/libraries/vhdl/ieee/timing_p.vhd
+design_name = ParteA
+instance = comp, \OUT~output\, OUT~output, ParteA, 1
+instance = comp, \IN1~input\, IN1~input, ParteA, 1
+instance = comp, \IN2~input\, IN2~input, ParteA, 1

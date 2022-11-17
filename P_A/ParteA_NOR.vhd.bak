@@ -1,0 +1,11 @@
+library IEEE;
+use IEEE.STD_LOGIC_1164.all;
+
+entity cNOR is
+	port(sw1, sw2: in std_logic;
+	LED: out std_logic);
+end cNOR;
+architecture arq of cNOR is
+begin
+	LED <= sw1 nor sw2;
+end arq;

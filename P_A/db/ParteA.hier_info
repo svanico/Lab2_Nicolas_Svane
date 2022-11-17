@@ -1,0 +1,6 @@
+|ParteA
+OUT <= inst.DB_MAX_OUTPUT_PORT_TYPE
+IN2 => inst.IN0
+IN1 => inst.IN1
+
+

@@ -1,0 +1,85 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\Usuario\Documents\Ingenieria 2022\TYDD 2\Lab 2\P_A\simulation\qsim
+vParteA_NOR
+Z1 IBNf`=dZ4S6A[LmI5dgmcR3
+Z2 Vk<`7e13MAdE?YkdcKlPF_1
+Z3 dC:\Users\Usuario\Documents\Ingenieria 2022\TYDD 2\Lab 2\P_A\simulation\qsim
+Z4 w1668627722
+Z5 8ParteA.vo
+Z6 FParteA.vo
+L0 31
+Z7 OV;L;10.1d;51
+r1
+31
+Z8 !s90 -work|work|ParteA.vo|
+Z9 o-work work -O0
+Z10 n@parte@a_@n@o@r
+!i10b 1
+Z11 !s100 46nMllozO5eh4V;ASZi;^3
+!s85 0
+Z12 !s108 1668627723.308000
+Z13 !s107 ParteA.vo|
+!s101 -O0
+vParteA_NOR_vlg_check_tst
+!i10b 1
+Z14 !s100 g8FjVIM_mE5X4jGEY=Smo1
+Z15 IGiDWGBV=6_[62Kj>TBmX70
+Z16 V`A2olMzeNV0ok0S?]5=0b1
+R3
+Z17 w1668627721
+Z18 8ParteA.vt
+Z19 FParteA.vt
+L0 59
+R7
+r1
+!s85 0
+31
+Z20 !s108 1668627723.392000
+Z21 !s107 ParteA.vt|
+Z22 !s90 -work|work|ParteA.vt|
+!s101 -O0
+R9
+Z23 n@parte@a_@n@o@r_vlg_check_tst
+vParteA_NOR_vlg_sample_tst
+!i10b 1
+Z24 !s100 EhK6doIo>WoN8[9<LcKG30
+Z25 Ii>B=mm>G13=LB<CQnSh1`2
+Z26 V[R1F@DlnWHb;mfZCBf:cA0
+R3
+R17
+R18
+R19
+L0 29
+R7
+r1
+!s85 0
+31
+R20
+R21
+R22
+!s101 -O0
+R9
+Z27 n@parte@a_@n@o@r_vlg_sample_tst
+vParteA_NOR_vlg_vec_tst
+!i10b 1
+Z28 !s100 Jhh:TQJO9C8F4KSb=`NlN2
+Z29 ICh1@;hNenSRn=>:XK3SI23
+Z30 VnLi58SOCPE0FXTT_2K;9N1
+R3
+R17
+R18
+R19
+Z31 L0 154
+R7
+r1
+!s85 0
+31
+R20
+R21
+R22
+!s101 -O0
+R9
+Z32 n@parte@a_@n@o@r_vlg_vec_tst
