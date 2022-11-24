@@ -162,6 +162,36 @@ SIGNAL("Full_Adder_vlg_vec_tst|i1|devoe")
 	PARENT = "";
 }
 
+SIGNAL("Full_Adder_vlg_vec_tst|i1|D3|Q~q")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("Full_Adder_vlg_vec_tst|i1|Cin~input_o")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("Full_Adder_vlg_vec_tst|i1|D3|Q~feeder_combout")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
 SIGNAL("Full_Adder_vlg_vec_tst|i1|f~output_o")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
@@ -202,36 +232,6 @@ SIGNAL("Full_Adder_vlg_vec_tst|i1|CLK~inputclkctrl_outclk")
 	PARENT = "";
 }
 
-SIGNAL("Full_Adder_vlg_vec_tst|i1|Cin~input_o")
-{
-	VALUE_TYPE = NINE_LEVEL_BIT;
-	SIGNAL_TYPE = SINGLE_BIT;
-	WIDTH = 1;
-	LSB_INDEX = -1;
-	DIRECTION = INPUT;
-	PARENT = "";
-}
-
-SIGNAL("Full_Adder_vlg_vec_tst|i1|D3|Q~feeder_combout")
-{
-	VALUE_TYPE = NINE_LEVEL_BIT;
-	SIGNAL_TYPE = SINGLE_BIT;
-	WIDTH = 1;
-	LSB_INDEX = -1;
-	DIRECTION = INPUT;
-	PARENT = "";
-}
-
-SIGNAL("Full_Adder_vlg_vec_tst|i1|D3|Q~q")
-{
-	VALUE_TYPE = NINE_LEVEL_BIT;
-	SIGNAL_TYPE = SINGLE_BIT;
-	WIDTH = 1;
-	LSB_INDEX = -1;
-	DIRECTION = INPUT;
-	PARENT = "";
-}
-
 SIGNAL("Full_Adder_vlg_vec_tst|i1|B~input_o")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
@@ -253,26 +253,6 @@ SIGNAL("Full_Adder_vlg_vec_tst|i1|D2|Q~feeder_combout")
 }
 
 SIGNAL("Full_Adder_vlg_vec_tst|i1|D2|Q~q")
-{
-	VALUE_TYPE = NINE_LEVEL_BIT;
-	SIGNAL_TYPE = SINGLE_BIT;
-	WIDTH = 1;
-	LSB_INDEX = -1;
-	DIRECTION = INPUT;
-	PARENT = "";
-}
-
-SIGNAL("Full_Adder_vlg_vec_tst|i1|z~0_combout")
-{
-	VALUE_TYPE = NINE_LEVEL_BIT;
-	SIGNAL_TYPE = SINGLE_BIT;
-	WIDTH = 1;
-	LSB_INDEX = -1;
-	DIRECTION = INPUT;
-	PARENT = "";
-}
-
-SIGNAL("Full_Adder_vlg_vec_tst|i1|D5|Q~q")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -312,7 +292,7 @@ SIGNAL("Full_Adder_vlg_vec_tst|i1|D1|Q~q")
 	PARENT = "";
 }
 
-SIGNAL("Full_Adder_vlg_vec_tst|i1|co~0_combout")
+SIGNAL("Full_Adder_vlg_vec_tst|i1|z~0_combout")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -322,7 +302,17 @@ SIGNAL("Full_Adder_vlg_vec_tst|i1|co~0_combout")
 	PARENT = "";
 }
 
-SIGNAL("Full_Adder_vlg_vec_tst|i1|co~combout")
+SIGNAL("Full_Adder_vlg_vec_tst|i1|D5|Q~q")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("Full_Adder_vlg_vec_tst|i1|co~0_combout")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
 	SIGNAL_TYPE = SINGLE_BIT;
@@ -546,6 +536,33 @@ TRANSITION_LIST("Full_Adder_vlg_vec_tst|i1|devoe")
 	}
 }
 
+TRANSITION_LIST("Full_Adder_vlg_vec_tst|i1|D3|Q~q")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 1000.0;
+	}
+}
+
+TRANSITION_LIST("Full_Adder_vlg_vec_tst|i1|Cin~input_o")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 1000.0;
+	}
+}
+
+TRANSITION_LIST("Full_Adder_vlg_vec_tst|i1|D3|Q~feeder_combout")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 1000.0;
+	}
+}
+
 TRANSITION_LIST("Full_Adder_vlg_vec_tst|i1|f~output_o")
 {
 	NODE
@@ -644,33 +661,6 @@ TRANSITION_LIST("Full_Adder_vlg_vec_tst|i1|CLK~inputclkctrl_outclk")
 	}
 }
 
-TRANSITION_LIST("Full_Adder_vlg_vec_tst|i1|Cin~input_o")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL 0 FOR 1000.0;
-	}
-}
-
-TRANSITION_LIST("Full_Adder_vlg_vec_tst|i1|D3|Q~feeder_combout")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL 0 FOR 1000.0;
-	}
-}
-
-TRANSITION_LIST("Full_Adder_vlg_vec_tst|i1|D3|Q~q")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL 0 FOR 1000.0;
-	}
-}
-
 TRANSITION_LIST("Full_Adder_vlg_vec_tst|i1|B~input_o")
 {
 	NODE
@@ -734,40 +724,6 @@ TRANSITION_LIST("Full_Adder_vlg_vec_tst|i1|D2|Q~q")
 	}
 }
 
-TRANSITION_LIST("Full_Adder_vlg_vec_tst|i1|z~0_combout")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL 0 FOR 40.0;
-		LEVEL 1 FOR 80.0;
-		LEVEL 0 FOR 80.0;
-		LEVEL 1 FOR 160.0;
-		LEVEL 0 FOR 80.0;
-		LEVEL 1 FOR 160.0;
-		LEVEL 0 FOR 160.0;
-		LEVEL 1 FOR 80.0;
-		LEVEL 0 FOR 160.0;
-	}
-}
-
-TRANSITION_LIST("Full_Adder_vlg_vec_tst|i1|D5|Q~q")
-{
-	NODE
-	{
-		REPEAT = 1;
-		LEVEL 0 FOR 120.0;
-		LEVEL 1 FOR 80.0;
-		LEVEL 0 FOR 80.0;
-		LEVEL 1 FOR 160.0;
-		LEVEL 0 FOR 80.0;
-		LEVEL 1 FOR 160.0;
-		LEVEL 0 FOR 160.0;
-		LEVEL 1 FOR 80.0;
-		LEVEL 0 FOR 80.0;
-	}
-}
-
 TRANSITION_LIST("Full_Adder_vlg_vec_tst|i1|A~input_o")
 {
 	NODE
@@ -817,22 +773,41 @@ TRANSITION_LIST("Full_Adder_vlg_vec_tst|i1|D1|Q~q")
 	}
 }
 
-TRANSITION_LIST("Full_Adder_vlg_vec_tst|i1|co~0_combout")
+TRANSITION_LIST("Full_Adder_vlg_vec_tst|i1|z~0_combout")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 40.0;
+		LEVEL 1 FOR 80.0;
+		LEVEL 0 FOR 80.0;
+		LEVEL 1 FOR 160.0;
+		LEVEL 0 FOR 80.0;
+		LEVEL 1 FOR 160.0;
+		LEVEL 0 FOR 160.0;
+		LEVEL 1 FOR 80.0;
+		LEVEL 0 FOR 160.0;
+	}
+}
+
+TRANSITION_LIST("Full_Adder_vlg_vec_tst|i1|D5|Q~q")
 {
 	NODE
 	{
 		REPEAT = 1;
 		LEVEL 0 FOR 120.0;
 		LEVEL 1 FOR 80.0;
+		LEVEL 0 FOR 80.0;
+		LEVEL 1 FOR 160.0;
+		LEVEL 0 FOR 80.0;
+		LEVEL 1 FOR 160.0;
 		LEVEL 0 FOR 160.0;
 		LEVEL 1 FOR 80.0;
-		LEVEL 0 FOR 160.0;
-		LEVEL 1 FOR 160.0;
-		LEVEL 0 FOR 240.0;
+		LEVEL 0 FOR 80.0;
 	}
 }
 
-TRANSITION_LIST("Full_Adder_vlg_vec_tst|i1|co~combout")
+TRANSITION_LIST("Full_Adder_vlg_vec_tst|i1|co~0_combout")
 {
 	NODE
 	{
@@ -981,7 +956,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "Full_Adder_vlg_vec_tst|i1|f~output_o";
+	CHANNEL = "Full_Adder_vlg_vec_tst|i1|D3|Q~q";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 13;
@@ -990,7 +965,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "Full_Adder_vlg_vec_tst|i1|Cout~output_o";
+	CHANNEL = "Full_Adder_vlg_vec_tst|i1|Cin~input_o";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 14;
@@ -999,7 +974,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "Full_Adder_vlg_vec_tst|i1|CLK~input_o";
+	CHANNEL = "Full_Adder_vlg_vec_tst|i1|D3|Q~feeder_combout";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 15;
@@ -1008,7 +983,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "Full_Adder_vlg_vec_tst|i1|CLK~inputclkctrl_outclk";
+	CHANNEL = "Full_Adder_vlg_vec_tst|i1|f~output_o";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 16;
@@ -1017,7 +992,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "Full_Adder_vlg_vec_tst|i1|Cin~input_o";
+	CHANNEL = "Full_Adder_vlg_vec_tst|i1|Cout~output_o";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 17;
@@ -1026,7 +1001,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "Full_Adder_vlg_vec_tst|i1|D3|Q~feeder_combout";
+	CHANNEL = "Full_Adder_vlg_vec_tst|i1|CLK~input_o";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 18;
@@ -1035,7 +1010,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "Full_Adder_vlg_vec_tst|i1|D3|Q~q";
+	CHANNEL = "Full_Adder_vlg_vec_tst|i1|CLK~inputclkctrl_outclk";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 19;
@@ -1071,7 +1046,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "Full_Adder_vlg_vec_tst|i1|z~0_combout";
+	CHANNEL = "Full_Adder_vlg_vec_tst|i1|A~input_o";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 23;
@@ -1080,7 +1055,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "Full_Adder_vlg_vec_tst|i1|D5|Q~q";
+	CHANNEL = "Full_Adder_vlg_vec_tst|i1|D1|Q~feeder_combout";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 24;
@@ -1089,7 +1064,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "Full_Adder_vlg_vec_tst|i1|A~input_o";
+	CHANNEL = "Full_Adder_vlg_vec_tst|i1|D1|Q~q";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 25;
@@ -1098,7 +1073,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "Full_Adder_vlg_vec_tst|i1|D1|Q~feeder_combout";
+	CHANNEL = "Full_Adder_vlg_vec_tst|i1|z~0_combout";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 26;
@@ -1107,7 +1082,7 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "Full_Adder_vlg_vec_tst|i1|D1|Q~q";
+	CHANNEL = "Full_Adder_vlg_vec_tst|i1|D5|Q~q";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
 	TREE_INDEX = 27;
@@ -1125,19 +1100,10 @@ DISPLAY_LINE
 
 DISPLAY_LINE
 {
-	CHANNEL = "Full_Adder_vlg_vec_tst|i1|co~combout";
-	EXPAND_STATUS = COLLAPSED;
-	RADIX = Binary;
-	TREE_INDEX = 29;
-	TREE_LEVEL = 0;
-}
-
-DISPLAY_LINE
-{
 	CHANNEL = "Full_Adder_vlg_vec_tst|i1|D4|Q~q";
 	EXPAND_STATUS = COLLAPSED;
 	RADIX = Binary;
-	TREE_INDEX = 30;
+	TREE_INDEX = 29;
 	TREE_LEVEL = 0;
 }
 ;

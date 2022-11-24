@@ -1,0 +1,184 @@
+|Esquematico_C
+V <= D_FF:inst15.Q
+A3 => D_FF:inst22.D
+CLK => D_FF:inst22.CLK
+CLK => D_FF:inst18.CLK
+CLK => D_FF:inst23.CLK
+CLK => D_FF:inst19.CLK
+CLK => D_FF:inst21.CLK
+CLK => D_FF:inst16.CLK
+CLK => D_FF:inst20.CLK
+CLK => D_FF:inst17.CLK
+CLK => ParteC_FA:inst.CLK
+CLK => ParteC_FA:inst3.CLK
+CLK => ParteC_FA:inst4.CLK
+CLK => ParteC_FA:inst5.CLK
+CLK => D_FF:inst15.CLK
+CLK => D_FF:inst14.CLK
+CLK => D_FF:inst10.CLK
+CLK => D_FF:inst2.CLK
+CLK => D_FF:inst24.CLK
+CLK => D_FF:inst25.CLK
+CLK => D_FF:inst26.CLK
+CLK => D_FF:inst27.CLK
+B3 => D_FF:inst18.D
+A2 => D_FF:inst23.D
+B2 => D_FF:inst19.D
+A1 => D_FF:inst21.D
+B1 => D_FF:inst16.D
+A0 => D_FF:inst20.D
+B0 => D_FF:inst17.D
+Cin => ParteC_FA:inst.Cin
+Z <= D_FF:inst14.Q
+Sign <= D_FF:inst10.Q
+Carry <= D_FF:inst2.Q
+F0 <= D_FF:inst24.Q
+F1 <= D_FF:inst25.Q
+F2 <= D_FF:inst26.Q
+F3 <= D_FF:inst27.Q
+
+
+|Esquematico_C|D_FF:inst15
+D => Q~reg0.DATAIN
+CLK => Q~reg0.CLK
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Esquematico_C|D_FF:inst22
+D => Q~reg0.DATAIN
+CLK => Q~reg0.CLK
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Esquematico_C|D_FF:inst18
+D => Q~reg0.DATAIN
+CLK => Q~reg0.CLK
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Esquematico_C|ParteC_FA:inst5
+A => f.IN0
+A => Cout.IN0
+B => f.IN1
+B => Cout.IN1
+Cin => f.IN1
+Cin => Cout.IN1
+CLK => ~NO_FANOUT~
+f <= f.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Esquematico_C|ParteC_FA:inst4
+A => f.IN0
+A => Cout.IN0
+B => f.IN1
+B => Cout.IN1
+Cin => f.IN1
+Cin => Cout.IN1
+CLK => ~NO_FANOUT~
+f <= f.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Esquematico_C|D_FF:inst23
+D => Q~reg0.DATAIN
+CLK => Q~reg0.CLK
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Esquematico_C|D_FF:inst19
+D => Q~reg0.DATAIN
+CLK => Q~reg0.CLK
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Esquematico_C|ParteC_FA:inst3
+A => f.IN0
+A => Cout.IN0
+B => f.IN1
+B => Cout.IN1
+Cin => f.IN1
+Cin => Cout.IN1
+CLK => ~NO_FANOUT~
+f <= f.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Esquematico_C|D_FF:inst21
+D => Q~reg0.DATAIN
+CLK => Q~reg0.CLK
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Esquematico_C|D_FF:inst16
+D => Q~reg0.DATAIN
+CLK => Q~reg0.CLK
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Esquematico_C|ParteC_FA:inst
+A => f.IN0
+A => Cout.IN0
+B => f.IN1
+B => Cout.IN1
+Cin => f.IN1
+Cin => Cout.IN1
+CLK => ~NO_FANOUT~
+f <= f.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Esquematico_C|D_FF:inst20
+D => Q~reg0.DATAIN
+CLK => Q~reg0.CLK
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Esquematico_C|D_FF:inst17
+D => Q~reg0.DATAIN
+CLK => Q~reg0.CLK
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Esquematico_C|D_FF:inst14
+D => Q~reg0.DATAIN
+CLK => Q~reg0.CLK
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Esquematico_C|D_FF:inst10
+D => Q~reg0.DATAIN
+CLK => Q~reg0.CLK
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Esquematico_C|D_FF:inst2
+D => Q~reg0.DATAIN
+CLK => Q~reg0.CLK
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Esquematico_C|D_FF:inst24
+D => Q~reg0.DATAIN
+CLK => Q~reg0.CLK
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Esquematico_C|D_FF:inst25
+D => Q~reg0.DATAIN
+CLK => Q~reg0.CLK
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Esquematico_C|D_FF:inst26
+D => Q~reg0.DATAIN
+CLK => Q~reg0.CLK
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Esquematico_C|D_FF:inst27
+D => Q~reg0.DATAIN
+CLK => Q~reg0.CLK
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+

@@ -1,0 +1,114 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\Usuario\Documents\Ingenieria 2022\TYDD 2\Lab 2\Resolucion\P_B\simulation\modelsim
+Ed_ff
+Z1 w1668634580
+Z2 DPx4 ieee 18 std_logic_unsigned 0 22 RYmj;=TK`k=k>D@Cz`zoB3
+Z3 DPx4 ieee 15 std_logic_arith 0 22 4`Y?g_lkdn;7UL9IiJck01
+Z4 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z5 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z6 dC:\Users\Usuario\Documents\Ingenieria 2022\TYDD 2\Lab 2\Resolucion\P_B\simulation\modelsim
+Z7 8C:/Users/Usuario/Documents/Ingenieria 2022/TYDD 2/Lab 2/Resolucion/P_B/D_FF.vhd
+Z8 FC:/Users/Usuario/Documents/Ingenieria 2022/TYDD 2/Lab 2/Resolucion/P_B/D_FF.vhd
+l0
+L6
+VZB^M0mMI;?g>4cCYEBm;83
+Z9 OV;C;10.1d;51
+31
+Z10 !s108 1668796740.873000
+Z11 !s90 -reportprogress|300|-93|-work|work|C:/Users/Usuario/Documents/Ingenieria 2022/TYDD 2/Lab 2/Resolucion/P_B/D_FF.vhd|
+Z12 !s107 C:/Users/Usuario/Documents/Ingenieria 2022/TYDD 2/Lab 2/Resolucion/P_B/D_FF.vhd|
+Z13 o-93 -work work -O0
+Z14 tExplicit 1
+!s100 4[g20K:P82oj]@i_kb<W<3
+!i10b 1
+Aarch
+R2
+R3
+R4
+R5
+DEx4 work 4 d_ff 0 22 ZB^M0mMI;?g>4cCYEBm;83
+l12
+L11
+V?[H>T5h[h6M0^hXEohh=l1
+R9
+31
+R10
+R11
+R12
+R13
+R14
+!s100 fRHOQXQk3zXQEK9377zon3
+!i10b 1
+Efull_adder
+Z15 w1668786431
+R4
+R5
+R6
+Z16 8C:/Users/Usuario/Documents/Ingenieria 2022/TYDD 2/Lab 2/Resolucion/P_B/Full_Adder.vhd
+Z17 FC:/Users/Usuario/Documents/Ingenieria 2022/TYDD 2/Lab 2/Resolucion/P_B/Full_Adder.vhd
+l0
+L4
+VgDR_egSIz^:O?N:k_IKS22
+R9
+31
+Z18 !s108 1668796740.958000
+Z19 !s90 -reportprogress|300|-93|-work|work|C:/Users/Usuario/Documents/Ingenieria 2022/TYDD 2/Lab 2/Resolucion/P_B/Full_Adder.vhd|
+Z20 !s107 C:/Users/Usuario/Documents/Ingenieria 2022/TYDD 2/Lab 2/Resolucion/P_B/Full_Adder.vhd|
+R13
+R14
+!s100 cR7<UY<`jRY22TZ79HPdD0
+!i10b 1
+Aarch
+R4
+R5
+DEx4 work 10 full_adder 0 22 gDR_egSIz^:O?N:k_IKS22
+l17
+L9
+V?H_mNo9JAGJ8bI3UZReja1
+R9
+31
+R18
+R19
+R20
+R13
+R14
+!s100 _YT2G@[UkaN0b^dO;Y<gQ2
+!i10b 1
+Efull_adder_test
+Z21 w1668793771
+R4
+R5
+R6
+Z22 8C:/Users/Usuario/Documents/Ingenieria 2022/TYDD 2/Lab 2/Resolucion/P_B/Full_Adder_test.vhd
+Z23 FC:/Users/Usuario/Documents/Ingenieria 2022/TYDD 2/Lab 2/Resolucion/P_B/Full_Adder_test.vhd
+l0
+L3
+VScnNajlO]aW60BWU[He5i0
+!s100 ol9cLF0R9:5:Dh5`1^3U<1
+R9
+31
+!i10b 1
+Z24 !s108 1668796741.044000
+Z25 !s90 -reportprogress|300|-93|-work|work|C:/Users/Usuario/Documents/Ingenieria 2022/TYDD 2/Lab 2/Resolucion/P_B/Full_Adder_test.vhd|
+Z26 !s107 C:/Users/Usuario/Documents/Ingenieria 2022/TYDD 2/Lab 2/Resolucion/P_B/Full_Adder_test.vhd|
+R13
+R14
+Abehaviour
+R4
+R5
+DEx4 work 15 full_adder_test 0 22 ScnNajlO]aW60BWU[He5i0
+l21
+L5
+V;YP;ml^=aeO6=B37>g4aO1
+!s100 WR:=V6GKT1]17WO:k`omO0
+R9
+31
+!i10b 1
+R24
+R25
+R26
+R13
+R14

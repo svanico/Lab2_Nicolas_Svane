@@ -4,11 +4,11 @@ K3
 cModel Technology
 Z0 dC:\Users\Usuario\Documents\Ingenieria 2022\TYDD 2\Lab 2\P_B\simulation\qsim
 vFull_Adder
-Z1 !s100 mYQ4DZFjAUmmbLWN[Wbk83
-Z2 IaD=^NzIf68@LHazPcJae11
+Z1 !s100 okC542XaePj`96bzVaba61
+Z2 IBaT5G:Eb`[H0U4_g1<PfA1
 Z3 Vi:fA[ULL]AagJ54O`elmf2
-Z4 dC:\Users\Usuario\Documents\Ingenieria 2022\TYDD 2\Lab 2\P_B\simulation\qsim
-Z5 w1668639662
+Z4 dC:\Users\Usuario\Documents\Ingenieria 2022\TYDD 2\Lab 2\Resolucion\P_B\simulation\qsim
+Z5 w1668789771
 Z6 8ParteB_FA.vo
 Z7 FParteB_FA.vo
 L0 31
@@ -20,7 +20,7 @@ Z10 o-work work -O0
 Z11 n@full_@adder
 !i10b 1
 !s85 0
-Z12 !s108 1668639663.583000
+Z12 !s108 1668789772.798000
 Z13 !s107 ParteB_FA.vo|
 !s101 -O0
 vFull_Adder_vlg_check_tst
@@ -37,7 +37,7 @@ R8
 r1
 !s85 0
 31
-Z19 !s108 1668639663.649000
+Z19 !s108 1668789772.883000
 Z20 !s107 ParteB_FA.vt|
 Z21 !s90 -work|work|ParteB_FA.vt|
 !s101 -O0
@@ -65,14 +65,14 @@ R10
 Z26 n@full_@adder_vlg_sample_tst
 vFull_Adder_vlg_vec_tst
 !i10b 1
-!s100 o:N4zneInMjS3GKU84`dY3
-IaE]e6lgU48<PPgzcYA2Ke3
-Z27 VHYI:eR:j7oHAfOnj01H@K0
+Z27 !s100 o:N4zneInMjS3GKU84`dY3
+Z28 IaE]e6lgU48<PPgzcYA2Ke3
+Z29 VHYI:eR:j7oHAfOnj01H@K0
 R4
 R5
 R17
 R18
-Z28 L0 185
+Z30 L0 185
 R8
 r1
 !s85 0
@@ -82,4 +82,4 @@ R20
 R21
 !s101 -O0
 R10
-Z29 n@full_@adder_vlg_vec_tst
+Z31 n@full_@adder_vlg_vec_tst

@@ -1,0 +1,85 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\Usuario\Documents\Ingenieria 2022\TYDD 2\Lab 2\Resolucion\P_C\simulation\qsim
+vEsquematico_C
+Z1 IC<gA[Xd=z?mWnY][mNaXc3
+Z2 VF[fYf;>>m68SE:z_;z@cc0
+Z3 dC:\Users\Usuario\Documents\Ingenieria 2022\TYDD 2\Lab 2\Resolucion\P_C\simulation\qsim
+Z4 w1669134789
+Z5 8ParteC.vo
+Z6 FParteC.vo
+L0 31
+Z7 OV;L;10.1d;51
+r1
+31
+Z8 !s90 -work|work|ParteC.vo|
+Z9 o-work work -O0
+Z10 n@esquematico_@c
+!i10b 1
+Z11 !s100 B<D52JQT<WDPl_gT;nkCW1
+!s85 0
+Z12 !s108 1669134790.112000
+Z13 !s107 ParteC.vo|
+!s101 -O0
+vEsquematico_C_vlg_check_tst
+!i10b 1
+Z14 !s100 FE1S=mJ`XL59ClbXXV8Y<2
+Z15 IkmZ:YDl8h;;2zEmX=X`e61
+Z16 V0Zdi>k=YgEH7moN5:[E@n1
+R3
+Z17 w1669134788
+Z18 8ParteC.vt
+Z19 FParteC.vt
+L0 75
+R7
+r1
+!s85 0
+31
+Z20 !s108 1669134790.205000
+Z21 !s107 ParteC.vt|
+Z22 !s90 -work|work|ParteC.vt|
+!s101 -O0
+R9
+Z23 n@esquematico_@c_vlg_check_tst
+vEsquematico_C_vlg_sample_tst
+!i10b 1
+Z24 !s100 HjP[?][JETgK_jK903Xl>3
+Z25 I^b_@CI[2b2bd?P5cLk;@@0
+Z26 VWHZhSHN;kVB:8bY_Oc?6:1
+R3
+R17
+R18
+R19
+L0 29
+R7
+r1
+!s85 0
+31
+R20
+R21
+R22
+!s101 -O0
+R9
+Z27 n@esquematico_@c_vlg_sample_tst
+vEsquematico_C_vlg_vec_tst
+!i10b 1
+Z28 !s100 I_2Zz:5SbdidcfS3E2T321
+Z29 ITQmEbIMdVn?3e[gJhfm?:3
+Z30 VYl6]RH`ZX_o;]nToe`>kW1
+R3
+R17
+R18
+R19
+Z31 L0 359
+R7
+r1
+!s85 0
+31
+R20
+R21
+R22
+!s101 -O0
+R9
+Z32 n@esquematico_@c_vlg_vec_tst

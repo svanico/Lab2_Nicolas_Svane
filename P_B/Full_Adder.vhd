@@ -16,7 +16,7 @@ component D_FF
 	signal aa,bb,ci,co,z : std_logic;
 begin
 	z <= aa xor bb xor ci;
-	co <= (aa and bb) or (ci and (a xor b));
+	co <= (aa and bb) or (ci and (aa xor bb));
 	
 	D1: D_FF port map (A,CLK,aa);
 	D2: D_FF port map (B,CLK,bb);

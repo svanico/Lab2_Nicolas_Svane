@@ -1,5 +1,5 @@
 EDA Netlist Writer report for ParteA
-Wed Nov 16 17:46:59 2022
+Fri Nov 18 12:51:26 2022
 Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
 
 
@@ -36,7 +36,7 @@ applicable agreement for further details.
 +-------------------------------------------------------------------+
 ; EDA Netlist Writer Summary                                        ;
 +---------------------------+---------------------------------------+
-; EDA Netlist Writer Status ; Successful - Wed Nov 16 17:46:59 2022 ;
+; EDA Netlist Writer Status ; Successful - Fri Nov 18 12:51:26 2022 ;
 ; Revision Name             ; ParteA                                ;
 ; Top-level Entity Name     ; ParteA                                ;
 ; Family                    ; Cyclone III                           ;
@@ -88,7 +88,7 @@ applicable agreement for further details.
 Info: *******************************************************************
 Info: Running Quartus II 64-Bit EDA Netlist Writer
     Info: Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
-    Info: Processing started: Wed Nov 16 17:46:59 2022
+    Info: Processing started: Fri Nov 18 12:51:25 2022
 Info: Command: quartus_eda --read_settings_files=off --write_settings_files=off ParteA -c ParteA
 Info (204019): Generated file ParteA_7_1200mv_85c_slow.vho in folder "C:/Users/Usuario/Documents/Ingenieria 2022/TYDD 2/Lab 2/P_A/simulation/qsim/" for EDA simulation tool
 Info (204019): Generated file ParteA_7_1200mv_0c_slow.vho in folder "C:/Users/Usuario/Documents/Ingenieria 2022/TYDD 2/Lab 2/P_A/simulation/qsim/" for EDA simulation tool
@@ -99,9 +99,9 @@ Info (204019): Generated file ParteA_7_1200mv_0c_vhd_slow.sdo in folder "C:/User
 Info (204019): Generated file ParteA_min_1200mv_0c_vhd_fast.sdo in folder "C:/Users/Usuario/Documents/Ingenieria 2022/TYDD 2/Lab 2/P_A/simulation/qsim/" for EDA simulation tool
 Info (204019): Generated file ParteA_vhd.sdo in folder "C:/Users/Usuario/Documents/Ingenieria 2022/TYDD 2/Lab 2/P_A/simulation/qsim/" for EDA simulation tool
 Info: Quartus II 64-Bit EDA Netlist Writer was successful. 0 errors, 0 warnings
-    Info: Peak virtual memory: 4529 megabytes
-    Info: Processing ended: Wed Nov 16 17:46:59 2022
-    Info: Elapsed time: 00:00:00
+    Info: Peak virtual memory: 4528 megabytes
+    Info: Processing ended: Fri Nov 18 12:51:26 2022
+    Info: Elapsed time: 00:00:01
     Info: Total CPU time (on all processors): 00:00:01
 
 

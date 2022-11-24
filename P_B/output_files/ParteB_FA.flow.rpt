@@ -1,5 +1,5 @@
 Flow report for ParteB_FA
-Wed Nov 16 20:01:02 2022
+Tue Nov 22 07:28:00 2022
 Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
 
 
@@ -40,15 +40,15 @@ applicable agreement for further details.
 +--------------------------------------------------------------------------------------+
 ; Flow Summary                                                                         ;
 +------------------------------------+-------------------------------------------------+
-; Flow Status                        ; Successful - Wed Nov 16 20:01:02 2022           ;
+; Flow Status                        ; Successful - Tue Nov 22 07:28:00 2022           ;
 ; Quartus II 64-Bit Version          ; 13.0.1 Build 232 06/12/2013 SP 1 SJ Web Edition ;
 ; Revision Name                      ; ParteB_FA                                       ;
 ; Top-level Entity Name              ; Full_Adder                                      ;
 ; Family                             ; Cyclone III                                     ;
 ; Device                             ; EP3C120F780C7                                   ;
 ; Timing Models                      ; Final                                           ;
-; Total logic elements               ; 6 / 119,088 ( < 1 % )                           ;
-;     Total combinational functions  ; 3 / 119,088 ( < 1 % )                           ;
+; Total logic elements               ; 5 / 119,088 ( < 1 % )                           ;
+;     Total combinational functions  ; 2 / 119,088 ( < 1 % )                           ;
 ;     Dedicated logic registers      ; 5 / 119,088 ( < 1 % )                           ;
 ; Total registers                    ; 5                                               ;
 ; Total pins                         ; 6 / 532 ( 1 % )                                 ;
@@ -64,27 +64,40 @@ applicable agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 11/16/2022 19:17:19 ;
+; Start date & time ; 11/22/2022 07:27:34 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; ParteB_FA           ;
 +-------------------+---------------------+
 
 
-+------------------------------------------------------------------------------------------------------------------+
-; Flow Non-Default Global Settings                                                                                 ;
-+-------------------------------------+---------------------------------+---------------+-------------+------------+
-; Assignment Name                     ; Value                           ; Default Value ; Entity Name ; Section Id ;
-+-------------------------------------+---------------------------------+---------------+-------------+------------+
-; COMPILER_SIGNATURE_ID               ; 168119030822071.166863703904732 ; --            ; --          ; --         ;
-; MAX_CORE_JUNCTION_TEMP              ; 85                              ; --            ; --          ; --         ;
-; MIN_CORE_JUNCTION_TEMP              ; 0                               ; --            ; --          ; --         ;
-; NOMINAL_CORE_SUPPLY_VOLTAGE         ; 1.2V                            ; --            ; --          ; --         ;
-; PARTITION_COLOR                     ; 16764057                        ; --            ; Full_Adder  ; Top        ;
-; PARTITION_FITTER_PRESERVATION_LEVEL ; PLACEMENT_AND_ROUTING           ; --            ; Full_Adder  ; Top        ;
-; PARTITION_NETLIST_TYPE              ; SOURCE                          ; --            ; Full_Adder  ; Top        ;
-; PROJECT_OUTPUT_DIRECTORY            ; output_files                    ; --            ; --          ; --         ;
-; TOP_LEVEL_ENTITY                    ; Full_Adder                      ; ParteB_FA     ; --          ; --         ;
-+-------------------------------------+---------------------------------+---------------+-------------+------------+
++------------------------------------------------------------------------------------------------------------------------------+
+; Flow Non-Default Global Settings                                                                                             ;
++--------------------------------------+---------------------------------------+---------------+-------------+-----------------+
+; Assignment Name                      ; Value                                 ; Default Value ; Entity Name ; Section Id      ;
++--------------------------------------+---------------------------------------+---------------+-------------+-----------------+
+; COMPILER_SIGNATURE_ID                ; 168119030822071.166911285417612       ; --            ; --          ; --              ;
+; EDA_DESIGN_INSTANCE_NAME             ; uut                                   ; --            ; --          ; Full_Adder_test ;
+; EDA_GENERATE_FUNCTIONAL_NETLIST      ; On                                    ; --            ; --          ; eda_simulation  ;
+; EDA_NATIVELINK_SIMULATION_TEST_BENCH ; Full_Adder_test                       ; --            ; --          ; eda_simulation  ;
+; EDA_OUTPUT_DATA_FORMAT               ; Vhdl                                  ; --            ; --          ; eda_simulation  ;
+; EDA_SIMULATION_TOOL                  ; ModelSim-Altera (VHDL)                ; <None>        ; --          ; --              ;
+; EDA_TEST_BENCH_ENABLE_STATUS         ; TEST_BENCH_MODE                       ; --            ; --          ; eda_simulation  ;
+; EDA_TEST_BENCH_FILE                  ; Full_Adder_test.vhd                   ; --            ; --          ; Full_Adder_test ;
+; EDA_TEST_BENCH_MODULE_NAME           ; Full_Adder                            ; --            ; --          ; Full_Adder_test ;
+; EDA_TEST_BENCH_NAME                  ; Full_Adder_test                       ; --            ; --          ; eda_simulation  ;
+; EDA_TEST_BENCH_RUN_SIM_FOR           ; 400 ns                                ; --            ; --          ; Full_Adder_test ;
+; EDA_TIME_SCALE                       ; 1 ps                                  ; --            ; --          ; eda_simulation  ;
+; MAX_CORE_JUNCTION_TEMP               ; 85                                    ; --            ; --          ; --              ;
+; MIN_CORE_JUNCTION_TEMP               ; 0                                     ; --            ; --          ; --              ;
+; NOMINAL_CORE_SUPPLY_VOLTAGE          ; 1.2V                                  ; --            ; --          ; --              ;
+; PARTITION_COLOR                      ; 16764057                              ; --            ; Full_Adder  ; Top             ;
+; PARTITION_FITTER_PRESERVATION_LEVEL  ; PLACEMENT_AND_ROUTING                 ; --            ; Full_Adder  ; Top             ;
+; PARTITION_NETLIST_TYPE               ; SOURCE                                ; --            ; Full_Adder  ; Top             ;
+; POWER_BOARD_THERMAL_MODEL            ; None (CONSERVATIVE)                   ; --            ; --          ; --              ;
+; POWER_PRESET_COOLING_SOLUTION        ; 23 MM HEAT SINK WITH 200 LFPM AIRFLOW ; --            ; --          ; --              ;
+; PROJECT_OUTPUT_DIRECTORY             ; output_files                          ; --            ; --          ; --              ;
+; TOP_LEVEL_ENTITY                     ; Full_Adder                            ; ParteB_FA     ; --          ; --              ;
++--------------------------------------+---------------------------------------+---------------+-------------+-----------------+
 
 
 +-------------------------------------------------------------------------------------------------------------------------------+
@@ -92,27 +105,12 @@ applicable agreement for further details.
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name               ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis      ; 00:00:03     ; 1.0                     ; 4629 MB             ; 00:00:02                           ;
-; Fitter                    ; 00:00:19     ; 1.0                     ; 5040 MB             ; 00:00:18                           ;
-; Assembler                 ; 00:00:04     ; 1.0                     ; 4552 MB             ; 00:00:04                           ;
-; TimeQuest Timing Analyzer ; 00:00:03     ; 1.0                     ; 4640 MB             ; 00:00:02                           ;
-; EDA Netlist Writer        ; 00:00:00     ; 1.0                     ; 4513 MB             ; 00:00:01                           ;
-; EDA Netlist Writer        ; 00:00:00     ; 1.0                     ; 4513 MB             ; 00:00:01                           ;
-; EDA Netlist Writer        ; 00:00:01     ; 1.0                     ; 4513 MB             ; 00:00:00                           ;
-; EDA Netlist Writer        ; 00:00:01     ; 1.0                     ; 4513 MB             ; 00:00:01                           ;
-; EDA Netlist Writer        ; 00:00:00     ; 1.0                     ; 4513 MB             ; 00:00:01                           ;
-; EDA Netlist Writer        ; 00:00:01     ; 1.0                     ; 4513 MB             ; 00:00:01                           ;
-; EDA Netlist Writer        ; 00:00:01     ; 1.0                     ; 4513 MB             ; 00:00:01                           ;
-; EDA Netlist Writer        ; 00:00:00     ; 1.0                     ; 4513 MB             ; 00:00:01                           ;
-; EDA Netlist Writer        ; 00:00:01     ; 1.0                     ; 4513 MB             ; 00:00:01                           ;
-; EDA Netlist Writer        ; 00:00:01     ; 1.0                     ; 4529 MB             ; 00:00:01                           ;
-; EDA Netlist Writer        ; 00:00:00     ; 1.0                     ; 4513 MB             ; 00:00:01                           ;
-; EDA Netlist Writer        ; 00:00:01     ; 1.0                     ; 4513 MB             ; 00:00:00                           ;
-; EDA Netlist Writer        ; 00:00:00     ; 1.0                     ; 4513 MB             ; 00:00:01                           ;
-; EDA Netlist Writer        ; 00:00:00     ; 1.0                     ; 4513 MB             ; 00:00:01                           ;
-; EDA Netlist Writer        ; 00:00:01     ; 1.0                     ; 4513 MB             ; 00:00:01                           ;
-; EDA Netlist Writer        ; 00:00:00     ; 1.0                     ; 4513 MB             ; 00:00:01                           ;
-; Total                     ; 00:00:37     ; --                      ; --                  ; 00:00:40                           ;
+; Analysis & Synthesis      ; 00:00:02     ; 1.0                     ; 4631 MB             ; 00:00:01                           ;
+; Fitter                    ; 00:00:15     ; 1.0                     ; 5035 MB             ; 00:00:14                           ;
+; Assembler                 ; 00:00:04     ; 1.0                     ; 4548 MB             ; 00:00:04                           ;
+; TimeQuest Timing Analyzer ; 00:00:02     ; 1.0                     ; 4640 MB             ; 00:00:02                           ;
+; EDA Netlist Writer        ; 00:00:00     ; 1.0                     ; 4504 MB             ; 00:00:00                           ;
+; Total                     ; 00:00:23     ; --                      ; --                  ; 00:00:21                           ;
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 
@@ -126,21 +124,6 @@ applicable agreement for further details.
 ; Assembler                 ; DESKTOP-J3FJ7MP  ; Windows 7 ; 6.2        ; x86_64         ;
 ; TimeQuest Timing Analyzer ; DESKTOP-J3FJ7MP  ; Windows 7 ; 6.2        ; x86_64         ;
 ; EDA Netlist Writer        ; DESKTOP-J3FJ7MP  ; Windows 7 ; 6.2        ; x86_64         ;
-; EDA Netlist Writer        ; DESKTOP-J3FJ7MP  ; Windows 7 ; 6.2        ; x86_64         ;
-; EDA Netlist Writer        ; DESKTOP-J3FJ7MP  ; Windows 7 ; 6.2        ; x86_64         ;
-; EDA Netlist Writer        ; DESKTOP-J3FJ7MP  ; Windows 7 ; 6.2        ; x86_64         ;
-; EDA Netlist Writer        ; DESKTOP-J3FJ7MP  ; Windows 7 ; 6.2        ; x86_64         ;
-; EDA Netlist Writer        ; DESKTOP-J3FJ7MP  ; Windows 7 ; 6.2        ; x86_64         ;
-; EDA Netlist Writer        ; DESKTOP-J3FJ7MP  ; Windows 7 ; 6.2        ; x86_64         ;
-; EDA Netlist Writer        ; DESKTOP-J3FJ7MP  ; Windows 7 ; 6.2        ; x86_64         ;
-; EDA Netlist Writer        ; DESKTOP-J3FJ7MP  ; Windows 7 ; 6.2        ; x86_64         ;
-; EDA Netlist Writer        ; DESKTOP-J3FJ7MP  ; Windows 7 ; 6.2        ; x86_64         ;
-; EDA Netlist Writer        ; DESKTOP-J3FJ7MP  ; Windows 7 ; 6.2        ; x86_64         ;
-; EDA Netlist Writer        ; DESKTOP-J3FJ7MP  ; Windows 7 ; 6.2        ; x86_64         ;
-; EDA Netlist Writer        ; DESKTOP-J3FJ7MP  ; Windows 7 ; 6.2        ; x86_64         ;
-; EDA Netlist Writer        ; DESKTOP-J3FJ7MP  ; Windows 7 ; 6.2        ; x86_64         ;
-; EDA Netlist Writer        ; DESKTOP-J3FJ7MP  ; Windows 7 ; 6.2        ; x86_64         ;
-; EDA Netlist Writer        ; DESKTOP-J3FJ7MP  ; Windows 7 ; 6.2        ; x86_64         ;
 +---------------------------+------------------+-----------+------------+----------------+
 
 
@@ -151,22 +134,7 @@ quartus_map --read_settings_files=on --write_settings_files=off ParteB_FA -c Par
 quartus_fit --read_settings_files=off --write_settings_files=off ParteB_FA -c ParteB_FA
 quartus_asm --read_settings_files=off --write_settings_files=off ParteB_FA -c ParteB_FA
 quartus_sta ParteB_FA -c ParteB_FA
-quartus_eda --gen_testbench --check_outputs=on --tool=modelsim_oem --format=verilog ParteB_FA -c ParteB_FA --vector_source="C:/Users/Usuario/Documents/Ingenieria 2022/TYDD 2/Lab 2/P_B/sim.vwf" --testbench_file=./simulation/qsim/ParteB_FA.vt
-quartus_eda --functional=on --simulation=on --tool=modelsim_oem --format=verilog ParteB_FA -c ParteB_FA
-quartus_eda --gen_testbench --check_outputs=on --tool=modelsim_oem --format=verilog ParteB_FA -c ParteB_FA --vector_source="C:/Users/Usuario/Documents/Ingenieria 2022/TYDD 2/Lab 2/P_B/sim.vwf" --testbench_file=./simulation/qsim/ParteB_FA.vt
-quartus_eda --functional=on --simulation=on --tool=modelsim_oem --format=verilog ParteB_FA -c ParteB_FA
-quartus_eda --gen_testbench --check_outputs=on --tool=modelsim_oem --format=verilog ParteB_FA -c ParteB_FA --vector_source="C:/Users/Usuario/Documents/Ingenieria 2022/TYDD 2/Lab 2/P_B/sim.vwf" --testbench_file=./simulation/qsim/ParteB_FA.vt
-quartus_eda --functional=on --simulation=on --tool=modelsim_oem --format=verilog ParteB_FA -c ParteB_FA
-quartus_eda --gen_testbench --check_outputs=on --tool=modelsim_oem --format=verilog ParteB_FA -c ParteB_FA --vector_source="C:/Users/Usuario/Documents/Ingenieria 2022/TYDD 2/Lab 2/P_B/sim.vwf" --testbench_file=./simulation/qsim/ParteB_FA.vt
-quartus_eda --functional=on --simulation=on --tool=modelsim_oem --format=verilog ParteB_FA -c ParteB_FA
-quartus_eda --gen_testbench --check_outputs=on --tool=modelsim_oem --format=verilog ParteB_FA -c ParteB_FA --vector_source="C:/Users/Usuario/Documents/Ingenieria 2022/TYDD 2/Lab 2/P_B/sim.vwf" --testbench_file=./simulation/qsim/ParteB_FA.vt
-quartus_eda --functional=off --timescale=1ps --simulation=on --tool=modelsim_oem --format=verilog ParteB_FA -c ParteB_FA
-quartus_eda --gen_testbench --check_outputs=on --tool=modelsim_oem --format=verilog ParteB_FA -c ParteB_FA --vector_source="C:/Users/Usuario/Documents/Ingenieria 2022/TYDD 2/Lab 2/P_B/sim.vwf" --testbench_file=./simulation/qsim/ParteB_FA.vt
-quartus_eda --functional=on --simulation=on --tool=modelsim_oem --format=verilog ParteB_FA -c ParteB_FA
-quartus_eda --gen_testbench --check_outputs=on --tool=modelsim_oem --format=verilog ParteB_FA -c ParteB_FA --vector_source="C:/Users/Usuario/Documents/Ingenieria 2022/TYDD 2/Lab 2/P_B/sim.vwf" --testbench_file=./simulation/qsim/ParteB_FA.vt
-quartus_eda --functional=on --simulation=on --tool=modelsim_oem --format=verilog ParteB_FA -c ParteB_FA
-quartus_eda --gen_testbench --check_outputs=on --tool=modelsim_oem --format=verilog ParteB_FA -c ParteB_FA --vector_source="C:/Users/Usuario/Documents/Ingenieria 2022/TYDD 2/Lab 2/P_B/sim.vwf" --testbench_file=./simulation/qsim/ParteB_FA.vt
-quartus_eda --functional=on --simulation=on --tool=modelsim_oem --format=verilog ParteB_FA -c ParteB_FA
+quartus_eda --read_settings_files=off --write_settings_files=off ParteB_FA -c ParteB_FA
 
 
 

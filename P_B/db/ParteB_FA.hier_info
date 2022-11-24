@@ -1,7 +1,5 @@
 |Full_Adder
-A => co.IN0
 A => D_FF:D1.D
-B => co.IN1
 B => D_FF:D2.D
 Cin => D_FF:D3.D
 CLK => D_FF:D1.CLK
