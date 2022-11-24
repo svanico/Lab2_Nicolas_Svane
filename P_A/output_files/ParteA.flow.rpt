@@ -1,5 +1,5 @@
 Flow report for ParteA
-Fri Nov 18 12:51:26 2022
+Thu Nov 24 16:04:46 2022
 Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
 
 
@@ -40,7 +40,7 @@ applicable agreement for further details.
 +--------------------------------------------------------------------------------------+
 ; Flow Summary                                                                         ;
 +------------------------------------+-------------------------------------------------+
-; Flow Status                        ; Successful - Fri Nov 18 12:51:26 2022           ;
+; Flow Status                        ; Successful - Thu Nov 24 16:04:46 2022           ;
 ; Quartus II 64-Bit Version          ; 13.0.1 Build 232 06/12/2013 SP 1 SJ Web Edition ;
 ; Revision Name                      ; ParteA                                          ;
 ; Top-level Entity Name              ; ParteA                                          ;
@@ -64,7 +64,7 @@ applicable agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 11/18/2022 12:50:58 ;
+; Start date & time ; 11/24/2022 16:04:14 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; ParteA              ;
 +-------------------+---------------------+
@@ -75,7 +75,7 @@ applicable agreement for further details.
 +--------------------------------------+-----------------------------------------------------------------------------+---------------+-------------+----------------+
 ; Assignment Name                      ; Value                                                                       ; Default Value ; Entity Name ; Section Id     ;
 +--------------------------------------+-----------------------------------------------------------------------------+---------------+-------------+----------------+
-; COMPILER_SIGNATURE_ID                ; 168119030822071.166878665821384                                             ; --            ; --          ; --             ;
+; COMPILER_SIGNATURE_ID                ; 168119030822071.166931665413472                                             ; --            ; --          ; --             ;
 ; EDA_DESIGN_INSTANCE_NAME             ; uut                                                                         ; --            ; --          ; testA          ;
 ; EDA_GENERATE_FUNCTIONAL_NETLIST      ; Off                                                                         ; --            ; --          ; eda_simulation ;
 ; EDA_NATIVELINK_SIMULATION_TEST_BENCH ; testA                                                                       ; --            ; --          ; eda_simulation ;
@@ -104,12 +104,12 @@ applicable agreement for further details.
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name               ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis      ; 00:00:02     ; 1.0                     ; 4630 MB             ; 00:00:02                           ;
+; Analysis & Synthesis      ; 00:00:03     ; 1.0                     ; 4631 MB             ; 00:00:02                           ;
 ; Fitter                    ; 00:00:16     ; 1.0                     ; 5033 MB             ; 00:00:15                           ;
-; Assembler                 ; 00:00:04     ; 1.0                     ; 4548 MB             ; 00:00:04                           ;
+; Assembler                 ; 00:00:06     ; 1.0                     ; 4548 MB             ; 00:00:05                           ;
 ; TimeQuest Timing Analyzer ; 00:00:02     ; 1.0                     ; 4641 MB             ; 00:00:02                           ;
 ; EDA Netlist Writer        ; 00:00:01     ; 1.0                     ; 4520 MB             ; 00:00:01                           ;
-; Total                     ; 00:00:25     ; --                      ; --                  ; 00:00:24                           ;
+; Total                     ; 00:00:28     ; --                      ; --                  ; 00:00:25                           ;
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 

@@ -1,62 +1,44 @@
 |Esquematico_C
-V <= D_FF:inst15.Q
-A3 => D_FF:inst22.D
-CLK => D_FF:inst22.CLK
-CLK => D_FF:inst18.CLK
-CLK => D_FF:inst23.CLK
-CLK => D_FF:inst19.CLK
-CLK => D_FF:inst21.CLK
-CLK => D_FF:inst16.CLK
-CLK => D_FF:inst20.CLK
-CLK => D_FF:inst17.CLK
-CLK => ParteC_FA:inst.CLK
-CLK => ParteC_FA:inst3.CLK
-CLK => ParteC_FA:inst4.CLK
-CLK => ParteC_FA:inst5.CLK
-CLK => D_FF:inst15.CLK
-CLK => D_FF:inst14.CLK
-CLK => D_FF:inst10.CLK
-CLK => D_FF:inst2.CLK
-CLK => D_FF:inst24.CLK
-CLK => D_FF:inst25.CLK
-CLK => D_FF:inst26.CLK
-CLK => D_FF:inst27.CLK
-B3 => D_FF:inst18.D
-A2 => D_FF:inst23.D
-B2 => D_FF:inst19.D
-A1 => D_FF:inst21.D
-B1 => D_FF:inst16.D
-A0 => D_FF:inst20.D
-B0 => D_FF:inst17.D
-Cin => ParteC_FA:inst.Cin
-Z <= D_FF:inst14.Q
-Sign <= D_FF:inst10.Q
-Carry <= D_FF:inst2.Q
-F0 <= D_FF:inst24.Q
-F1 <= D_FF:inst25.Q
-F2 <= D_FF:inst26.Q
-F3 <= D_FF:inst27.Q
+CLK => partec_fa:b2v_inst.CLK
+CLK => d_ff:b2v_inst10.CLK
+CLK => d_ff:b2v_inst14.CLK
+CLK => d_ff:b2v_inst15.CLK
+CLK => d_ff:b2v_inst16.CLK
+CLK => d_ff:b2v_inst17.CLK
+CLK => d_ff:b2v_inst18.CLK
+CLK => d_ff:b2v_inst19.CLK
+CLK => d_ff:b2v_inst2.CLK
+CLK => d_ff:b2v_inst20.CLK
+CLK => d_ff:b2v_inst21.CLK
+CLK => d_ff:b2v_inst22.CLK
+CLK => d_ff:b2v_inst23.CLK
+CLK => d_ff:b2v_inst24.CLK
+CLK => d_ff:b2v_inst25.CLK
+CLK => d_ff:b2v_inst26.CLK
+CLK => d_ff:b2v_inst27.CLK
+CLK => partec_fa:b2v_inst3.CLK
+CLK => partec_fa:b2v_inst4.CLK
+CLK => partec_fa:b2v_inst5.CLK
+Cin => partec_fa:b2v_inst.Cin
+B0 => d_ff:b2v_inst17.D
+B1 => d_ff:b2v_inst16.D
+B2 => d_ff:b2v_inst19.D
+B3 => d_ff:b2v_inst18.D
+A0 => d_ff:b2v_inst20.D
+A1 => d_ff:b2v_inst21.D
+A2 => d_ff:b2v_inst23.D
+A3 => d_ff:b2v_inst22.D
+V <= d_ff:b2v_inst15.Q
+Z <= d_ff:b2v_inst14.Q
+Sign <= d_ff:b2v_inst10.Q
+Carry <= d_ff:b2v_inst2.Q
+F0 <= d_ff:b2v_inst24.Q
+F1 <= d_ff:b2v_inst25.Q
+F2 <= d_ff:b2v_inst26.Q
+F3 <= d_ff:b2v_inst27.Q
 
 
-|Esquematico_C|D_FF:inst15
-D => Q~reg0.DATAIN
-CLK => Q~reg0.CLK
-Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
-
-
-|Esquematico_C|D_FF:inst22
-D => Q~reg0.DATAIN
-CLK => Q~reg0.CLK
-Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
-
-
-|Esquematico_C|D_FF:inst18
-D => Q~reg0.DATAIN
-CLK => Q~reg0.CLK
-Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
-
-
-|Esquematico_C|ParteC_FA:inst5
+|Esquematico_C|ParteC_FA:b2v_inst
 A => f.IN0
 A => Cout.IN0
 B => f.IN1
@@ -68,7 +50,103 @@ f <= f.DB_MAX_OUTPUT_PORT_TYPE
 Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|Esquematico_C|ParteC_FA:inst4
+|Esquematico_C|D_FF:b2v_inst10
+D => Q~reg0.DATAIN
+CLK => Q~reg0.CLK
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Esquematico_C|D_FF:b2v_inst14
+D => Q~reg0.DATAIN
+CLK => Q~reg0.CLK
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Esquematico_C|D_FF:b2v_inst15
+D => Q~reg0.DATAIN
+CLK => Q~reg0.CLK
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Esquematico_C|D_FF:b2v_inst16
+D => Q~reg0.DATAIN
+CLK => Q~reg0.CLK
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Esquematico_C|D_FF:b2v_inst17
+D => Q~reg0.DATAIN
+CLK => Q~reg0.CLK
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Esquematico_C|D_FF:b2v_inst18
+D => Q~reg0.DATAIN
+CLK => Q~reg0.CLK
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Esquematico_C|D_FF:b2v_inst19
+D => Q~reg0.DATAIN
+CLK => Q~reg0.CLK
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Esquematico_C|D_FF:b2v_inst2
+D => Q~reg0.DATAIN
+CLK => Q~reg0.CLK
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Esquematico_C|D_FF:b2v_inst20
+D => Q~reg0.DATAIN
+CLK => Q~reg0.CLK
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Esquematico_C|D_FF:b2v_inst21
+D => Q~reg0.DATAIN
+CLK => Q~reg0.CLK
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Esquematico_C|D_FF:b2v_inst22
+D => Q~reg0.DATAIN
+CLK => Q~reg0.CLK
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Esquematico_C|D_FF:b2v_inst23
+D => Q~reg0.DATAIN
+CLK => Q~reg0.CLK
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Esquematico_C|D_FF:b2v_inst24
+D => Q~reg0.DATAIN
+CLK => Q~reg0.CLK
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Esquematico_C|D_FF:b2v_inst25
+D => Q~reg0.DATAIN
+CLK => Q~reg0.CLK
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Esquematico_C|D_FF:b2v_inst26
+D => Q~reg0.DATAIN
+CLK => Q~reg0.CLK
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Esquematico_C|D_FF:b2v_inst27
+D => Q~reg0.DATAIN
+CLK => Q~reg0.CLK
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Esquematico_C|ParteC_FA:b2v_inst3
 A => f.IN0
 A => Cout.IN0
 B => f.IN1
@@ -80,19 +158,7 @@ f <= f.DB_MAX_OUTPUT_PORT_TYPE
 Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|Esquematico_C|D_FF:inst23
-D => Q~reg0.DATAIN
-CLK => Q~reg0.CLK
-Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
-
-
-|Esquematico_C|D_FF:inst19
-D => Q~reg0.DATAIN
-CLK => Q~reg0.CLK
-Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
-
-
-|Esquematico_C|ParteC_FA:inst3
+|Esquematico_C|ParteC_FA:b2v_inst4
 A => f.IN0
 A => Cout.IN0
 B => f.IN1
@@ -104,19 +170,7 @@ f <= f.DB_MAX_OUTPUT_PORT_TYPE
 Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|Esquematico_C|D_FF:inst21
-D => Q~reg0.DATAIN
-CLK => Q~reg0.CLK
-Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
-
-
-|Esquematico_C|D_FF:inst16
-D => Q~reg0.DATAIN
-CLK => Q~reg0.CLK
-Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
-
-
-|Esquematico_C|ParteC_FA:inst
+|Esquematico_C|ParteC_FA:b2v_inst5
 A => f.IN0
 A => Cout.IN0
 B => f.IN1
@@ -126,59 +180,5 @@ Cin => Cout.IN1
 CLK => ~NO_FANOUT~
 f <= f.DB_MAX_OUTPUT_PORT_TYPE
 Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
-
-
-|Esquematico_C|D_FF:inst20
-D => Q~reg0.DATAIN
-CLK => Q~reg0.CLK
-Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
-
-
-|Esquematico_C|D_FF:inst17
-D => Q~reg0.DATAIN
-CLK => Q~reg0.CLK
-Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
-
-
-|Esquematico_C|D_FF:inst14
-D => Q~reg0.DATAIN
-CLK => Q~reg0.CLK
-Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
-
-
-|Esquematico_C|D_FF:inst10
-D => Q~reg0.DATAIN
-CLK => Q~reg0.CLK
-Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
-
-
-|Esquematico_C|D_FF:inst2
-D => Q~reg0.DATAIN
-CLK => Q~reg0.CLK
-Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
-
-
-|Esquematico_C|D_FF:inst24
-D => Q~reg0.DATAIN
-CLK => Q~reg0.CLK
-Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
-
-
-|Esquematico_C|D_FF:inst25
-D => Q~reg0.DATAIN
-CLK => Q~reg0.CLK
-Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
-
-
-|Esquematico_C|D_FF:inst26
-D => Q~reg0.DATAIN
-CLK => Q~reg0.CLK
-Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
-
-
-|Esquematico_C|D_FF:inst27
-D => Q~reg0.DATAIN
-CLK => Q~reg0.CLK
-Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
 
 

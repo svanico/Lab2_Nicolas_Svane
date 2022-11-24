@@ -1,5 +1,5 @@
 Fitter report for ParteC
-Tue Nov 22 13:32:47 2022
+Thu Nov 24 15:47:17 2022
 Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
 
 
@@ -65,7 +65,7 @@ applicable agreement for further details.
 +--------------------------------------------------------------------------------------+
 ; Fitter Summary                                                                       ;
 +------------------------------------+-------------------------------------------------+
-; Fitter Status                      ; Successful - Tue Nov 22 13:32:47 2022           ;
+; Fitter Status                      ; Successful - Thu Nov 24 15:47:17 2022           ;
 ; Quartus II 64-Bit Version          ; 13.0.1 Build 232 06/12/2013 SP 1 SJ Web Edition ;
 ; Revision Name                      ; ParteC                                          ;
 ; Top-level Entity Name              ; Esquematico_C                                   ;
@@ -225,8 +225,8 @@ The pin-out file can be found in C:/Users/Usuario/Documents/Ingenieria 2022/TYDD
 ;                                             ;                        ;
 ; Logic element usage by number of LUT inputs ;                        ;
 ;     -- 4 input functions                    ; 6                      ;
-;     -- 3 input functions                    ; 4                      ;
-;     -- <=2 input functions                  ; 2                      ;
+;     -- 3 input functions                    ; 3                      ;
+;     -- <=2 input functions                  ; 3                      ;
 ;     -- Register only                        ; 4                      ;
 ;                                             ;                        ;
 ; Logic elements by mode                      ;                        ;
@@ -258,8 +258,8 @@ The pin-out file can be found in C:/Users/Usuario/Documents/Ingenieria 2022/TYDD
 ; Peak interconnect usage (total/H/V)         ; 0% / 0% / 0%           ;
 ; Maximum fan-out                             ; 16                     ;
 ; Highest non-global fan-out                  ; 16                     ;
-; Total fan-out                               ; 106                    ;
-; Average fan-out                             ; 1.38                   ;
+; Total fan-out                               ; 105                    ;
+; Average fan-out                             ; 1.36                   ;
 +---------------------------------------------+------------------------+
 *  Register count does not include registers inside RAM blocks or DSP blocks.
 
@@ -279,8 +279,8 @@ The pin-out file can be found in C:/Users/Usuario/Documents/Ingenieria 2022/TYDD
 ;                                             ;                       ;                                ;
 ; Logic element usage by number of LUT inputs ;                       ;                                ;
 ;     -- 4 input functions                    ; 6                     ; 0                              ;
-;     -- 3 input functions                    ; 4                     ; 0                              ;
-;     -- <=2 input functions                  ; 2                     ; 0                              ;
+;     -- 3 input functions                    ; 3                     ; 0                              ;
+;     -- <=2 input functions                  ; 3                     ; 0                              ;
 ;     -- Register only                        ; 4                     ; 0                              ;
 ;                                             ;                       ;                                ;
 ; Logic elements by mode                      ;                       ;                                ;
@@ -305,7 +305,7 @@ The pin-out file can be found in C:/Users/Usuario/Documents/Ingenieria 2022/TYDD
 ;     -- Registered Output Connections        ; 0                     ; 0                              ;
 ;                                             ;                       ;                                ;
 ; Internal Connections                        ;                       ;                                ;
-;     -- Total Connections                    ; 101                   ; 5                              ;
+;     -- Total Connections                    ; 100                   ; 5                              ;
 ;     -- Registered Connections               ; 30                    ; 0                              ;
 ;                                             ;                       ;                                ;
 ; External Connections                        ;                       ;                                ;
@@ -1193,33 +1193,33 @@ The pin-out file can be found in C:/Users/Usuario/Documents/Ingenieria 2022/TYDD
 Note: Pin directions (input, output or bidir) are based on device operating in user mode.
 
 
-+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Fitter Resource Utilization by Entity                                                                                                                                                                                                                                      ;
-+----------------------------+-------------+---------------------------+---------------+-------------+------+--------------+---------+-----------+------+--------------+--------------+-------------------+------------------+--------------------------------+--------------+
-; Compilation Hierarchy Node ; Logic Cells ; Dedicated Logic Registers ; I/O Registers ; Memory Bits ; M9Ks ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; LUT-Only LCs ; Register-Only LCs ; LUT/Register LCs ; Full Hierarchy Name            ; Library Name ;
-+----------------------------+-------------+---------------------------+---------------+-------------+------+--------------+---------+-----------+------+--------------+--------------+-------------------+------------------+--------------------------------+--------------+
-; |Esquematico_C             ; 16 (0)      ; 16 (0)                    ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 18   ; 0            ; 0 (0)        ; 4 (0)             ; 12 (2)           ; |Esquematico_C                 ; work         ;
-;    |D_FF:inst10|           ; 1 (1)       ; 1 (1)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 1 (1)            ; |Esquematico_C|D_FF:inst10     ; work         ;
-;    |D_FF:inst14|           ; 1 (1)       ; 1 (1)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 1 (1)            ; |Esquematico_C|D_FF:inst14     ; work         ;
-;    |D_FF:inst15|           ; 1 (1)       ; 1 (1)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 1 (1)            ; |Esquematico_C|D_FF:inst15     ; work         ;
-;    |D_FF:inst16|           ; 1 (1)       ; 1 (1)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 1 (1)            ; |Esquematico_C|D_FF:inst16     ; work         ;
-;    |D_FF:inst17|           ; 1 (1)       ; 1 (1)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 1 (1)            ; |Esquematico_C|D_FF:inst17     ; work         ;
-;    |D_FF:inst18|           ; 1 (1)       ; 1 (1)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 1 (1)            ; |Esquematico_C|D_FF:inst18     ; work         ;
-;    |D_FF:inst19|           ; 1 (1)       ; 1 (1)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 0 (0)        ; 1 (1)             ; 0 (0)            ; |Esquematico_C|D_FF:inst19     ; work         ;
-;    |D_FF:inst20|           ; 1 (1)       ; 1 (1)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 0 (0)        ; 1 (1)             ; 0 (0)            ; |Esquematico_C|D_FF:inst20     ; work         ;
-;    |D_FF:inst21|           ; 1 (1)       ; 1 (1)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 1 (1)            ; |Esquematico_C|D_FF:inst21     ; work         ;
-;    |D_FF:inst22|           ; 1 (1)       ; 1 (1)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 0 (0)        ; 1 (1)             ; 0 (0)            ; |Esquematico_C|D_FF:inst22     ; work         ;
-;    |D_FF:inst23|           ; 1 (1)       ; 1 (1)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 0 (0)        ; 1 (1)             ; 0 (0)            ; |Esquematico_C|D_FF:inst23     ; work         ;
-;    |D_FF:inst24|           ; 1 (1)       ; 1 (1)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 1 (1)            ; |Esquematico_C|D_FF:inst24     ; work         ;
-;    |D_FF:inst25|           ; 1 (1)       ; 1 (1)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 1 (1)            ; |Esquematico_C|D_FF:inst25     ; work         ;
-;    |D_FF:inst26|           ; 1 (1)       ; 1 (1)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 1 (1)            ; |Esquematico_C|D_FF:inst26     ; work         ;
-;    |D_FF:inst27|           ; 1 (1)       ; 1 (1)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 1 (1)            ; |Esquematico_C|D_FF:inst27     ; work         ;
-;    |D_FF:inst2|            ; 1 (1)       ; 1 (1)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 1 (1)            ; |Esquematico_C|D_FF:inst2      ; work         ;
-;    |ParteC_FA:inst3|       ; 2 (2)       ; 0 (0)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 2 (2)            ; |Esquematico_C|ParteC_FA:inst3 ; work         ;
-;    |ParteC_FA:inst4|       ; 3 (3)       ; 0 (0)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 3 (3)            ; |Esquematico_C|ParteC_FA:inst4 ; work         ;
-;    |ParteC_FA:inst5|       ; 2 (2)       ; 0 (0)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 2 (2)            ; |Esquematico_C|ParteC_FA:inst5 ; work         ;
-;    |ParteC_FA:inst|        ; 3 (3)       ; 0 (0)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 3 (3)            ; |Esquematico_C|ParteC_FA:inst  ; work         ;
-+----------------------------+-------------+---------------------------+---------------+-------------+------+--------------+---------+-----------+------+--------------+--------------+-------------------+------------------+--------------------------------+--------------+
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Fitter Resource Utilization by Entity                                                                                                                                                                                                                                          ;
++----------------------------+-------------+---------------------------+---------------+-------------+------+--------------+---------+-----------+------+--------------+--------------+-------------------+------------------+------------------------------------+--------------+
+; Compilation Hierarchy Node ; Logic Cells ; Dedicated Logic Registers ; I/O Registers ; Memory Bits ; M9Ks ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; LUT-Only LCs ; Register-Only LCs ; LUT/Register LCs ; Full Hierarchy Name                ; Library Name ;
++----------------------------+-------------+---------------------------+---------------+-------------+------+--------------+---------+-----------+------+--------------+--------------+-------------------+------------------+------------------------------------+--------------+
+; |Esquematico_C             ; 16 (0)      ; 16 (0)                    ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 18   ; 0            ; 0 (0)        ; 4 (0)             ; 12 (2)           ; |Esquematico_C                     ; work         ;
+;    |D_FF:b2v_inst10|       ; 1 (1)       ; 1 (1)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 1 (1)            ; |Esquematico_C|D_FF:b2v_inst10     ; work         ;
+;    |D_FF:b2v_inst14|       ; 1 (1)       ; 1 (1)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 1 (1)            ; |Esquematico_C|D_FF:b2v_inst14     ; work         ;
+;    |D_FF:b2v_inst15|       ; 1 (1)       ; 1 (1)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 1 (1)            ; |Esquematico_C|D_FF:b2v_inst15     ; work         ;
+;    |D_FF:b2v_inst16|       ; 1 (1)       ; 1 (1)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 1 (1)            ; |Esquematico_C|D_FF:b2v_inst16     ; work         ;
+;    |D_FF:b2v_inst17|       ; 1 (1)       ; 1 (1)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 0 (0)        ; 1 (1)             ; 0 (0)            ; |Esquematico_C|D_FF:b2v_inst17     ; work         ;
+;    |D_FF:b2v_inst18|       ; 1 (1)       ; 1 (1)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 1 (1)            ; |Esquematico_C|D_FF:b2v_inst18     ; work         ;
+;    |D_FF:b2v_inst19|       ; 1 (1)       ; 1 (1)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 0 (0)        ; 1 (1)             ; 0 (0)            ; |Esquematico_C|D_FF:b2v_inst19     ; work         ;
+;    |D_FF:b2v_inst20|       ; 1 (1)       ; 1 (1)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 0 (0)        ; 1 (1)             ; 0 (0)            ; |Esquematico_C|D_FF:b2v_inst20     ; work         ;
+;    |D_FF:b2v_inst21|       ; 1 (1)       ; 1 (1)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 0 (0)        ; 1 (1)             ; 0 (0)            ; |Esquematico_C|D_FF:b2v_inst21     ; work         ;
+;    |D_FF:b2v_inst22|       ; 1 (1)       ; 1 (1)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 1 (1)            ; |Esquematico_C|D_FF:b2v_inst22     ; work         ;
+;    |D_FF:b2v_inst23|       ; 1 (1)       ; 1 (1)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 1 (1)            ; |Esquematico_C|D_FF:b2v_inst23     ; work         ;
+;    |D_FF:b2v_inst24|       ; 1 (1)       ; 1 (1)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 1 (1)            ; |Esquematico_C|D_FF:b2v_inst24     ; work         ;
+;    |D_FF:b2v_inst25|       ; 1 (1)       ; 1 (1)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 1 (1)            ; |Esquematico_C|D_FF:b2v_inst25     ; work         ;
+;    |D_FF:b2v_inst26|       ; 1 (1)       ; 1 (1)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 1 (1)            ; |Esquematico_C|D_FF:b2v_inst26     ; work         ;
+;    |D_FF:b2v_inst27|       ; 1 (1)       ; 1 (1)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 1 (1)            ; |Esquematico_C|D_FF:b2v_inst27     ; work         ;
+;    |D_FF:b2v_inst2|        ; 1 (1)       ; 1 (1)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 1 (1)            ; |Esquematico_C|D_FF:b2v_inst2      ; work         ;
+;    |ParteC_FA:b2v_inst3|   ; 1 (1)       ; 0 (0)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 1 (1)            ; |Esquematico_C|ParteC_FA:b2v_inst3 ; work         ;
+;    |ParteC_FA:b2v_inst4|   ; 5 (5)       ; 0 (0)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 5 (5)            ; |Esquematico_C|ParteC_FA:b2v_inst4 ; work         ;
+;    |ParteC_FA:b2v_inst5|   ; 2 (2)       ; 0 (0)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 2 (2)            ; |Esquematico_C|ParteC_FA:b2v_inst5 ; work         ;
+;    |ParteC_FA:b2v_inst|    ; 2 (2)       ; 0 (0)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 2 (2)            ; |Esquematico_C|ParteC_FA:b2v_inst  ; work         ;
++----------------------------+-------------+---------------------------+---------------+-------------+------+--------------+---------+-----------+------+--------------+--------------+-------------------+------------------+------------------------------------+--------------+
 Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
 
 
@@ -1238,59 +1238,59 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ; F3    ; Output   ; --            ; --            ; --                    ; --  ; --   ;
 ; Cin   ; Input    ; (6) 1314 ps   ; --            ; --                    ; --  ; --   ;
 ; CLK   ; Input    ; (0) 0 ps      ; --            ; --                    ; --  ; --   ;
-; B3    ; Input    ; --            ; (6) 1314 ps   ; --                    ; --  ; --   ;
-; A2    ; Input    ; (6) 1314 ps   ; --            ; --                    ; --  ; --   ;
-; B2    ; Input    ; (6) 1314 ps   ; --            ; --                    ; --  ; --   ;
-; A0    ; Input    ; --            ; (6) 1314 ps   ; --                    ; --  ; --   ;
-; B0    ; Input    ; --            ; (6) 1314 ps   ; --                    ; --  ; --   ;
-; A1    ; Input    ; --            ; (6) 1314 ps   ; --                    ; --  ; --   ;
-; B1    ; Input    ; (6) 1314 ps   ; --            ; --                    ; --  ; --   ;
 ; A3    ; Input    ; (6) 1314 ps   ; --            ; --                    ; --  ; --   ;
+; B3    ; Input    ; (6) 1314 ps   ; --            ; --                    ; --  ; --   ;
+; B2    ; Input    ; (6) 1314 ps   ; --            ; --                    ; --  ; --   ;
+; A2    ; Input    ; (6) 1314 ps   ; --            ; --                    ; --  ; --   ;
+; B1    ; Input    ; (6) 1314 ps   ; --            ; --                    ; --  ; --   ;
+; A1    ; Input    ; --            ; (6) 1314 ps   ; --                    ; --  ; --   ;
+; A0    ; Input    ; (6) 1314 ps   ; --            ; --                    ; --  ; --   ;
+; B0    ; Input    ; (6) 1314 ps   ; --            ; --                    ; --  ; --   ;
 +-------+----------+---------------+---------------+-----------------------+-----+------+
 
 
-+------------------------------------------------------------+
-; Pad To Core Delay Chain Fanout                             ;
-+------------------------------+-------------------+---------+
-; Source Pin / Fanout          ; Pad To Core Index ; Setting ;
-+------------------------------+-------------------+---------+
-; Cin                          ;                   ;         ;
-;      - ParteC_FA:inst|Cout~1 ; 0                 ; 6       ;
-;      - ParteC_FA:inst|f~0    ; 0                 ; 6       ;
-; CLK                          ;                   ;         ;
-;      - D_FF:inst15|Q         ; 0                 ; 0       ;
-;      - D_FF:inst22|Q         ; 0                 ; 0       ;
-;      - D_FF:inst18|Q         ; 0                 ; 0       ;
-;      - D_FF:inst23|Q         ; 0                 ; 0       ;
-;      - D_FF:inst19|Q         ; 0                 ; 0       ;
-;      - D_FF:inst21|Q         ; 0                 ; 0       ;
-;      - D_FF:inst16|Q         ; 0                 ; 0       ;
-;      - D_FF:inst20|Q         ; 0                 ; 0       ;
-;      - D_FF:inst17|Q         ; 0                 ; 0       ;
-;      - D_FF:inst14|Q         ; 0                 ; 0       ;
-;      - D_FF:inst10|Q         ; 0                 ; 0       ;
-;      - D_FF:inst2|Q          ; 0                 ; 0       ;
-;      - D_FF:inst24|Q         ; 0                 ; 0       ;
-;      - D_FF:inst25|Q         ; 0                 ; 0       ;
-;      - D_FF:inst26|Q         ; 0                 ; 0       ;
-;      - D_FF:inst27|Q         ; 0                 ; 0       ;
-; B3                           ;                   ;         ;
-;      - D_FF:inst18|Q         ; 1                 ; 6       ;
-; A2                           ;                   ;         ;
-;      - D_FF:inst23|Q         ; 0                 ; 6       ;
-; B2                           ;                   ;         ;
-;      - D_FF:inst19|Q~feeder  ; 0                 ; 6       ;
-; A0                           ;                   ;         ;
-;      - D_FF:inst20|Q~feeder  ; 1                 ; 6       ;
-; B0                           ;                   ;         ;
-;      - D_FF:inst17|Q         ; 1                 ; 6       ;
-; A1                           ;                   ;         ;
-;      - D_FF:inst21|Q         ; 1                 ; 6       ;
-; B1                           ;                   ;         ;
-;      - D_FF:inst16|Q         ; 0                 ; 6       ;
-; A3                           ;                   ;         ;
-;      - D_FF:inst22|Q~feeder  ; 0                 ; 6       ;
-+------------------------------+-------------------+---------+
++----------------------------------------------------------------+
+; Pad To Core Delay Chain Fanout                                 ;
++----------------------------------+-------------------+---------+
+; Source Pin / Fanout              ; Pad To Core Index ; Setting ;
++----------------------------------+-------------------+---------+
+; Cin                              ;                   ;         ;
+;      - ParteC_FA:b2v_inst|Cout~0 ; 0                 ; 6       ;
+;      - ParteC_FA:b2v_inst|f~0    ; 0                 ; 6       ;
+; CLK                              ;                   ;         ;
+;      - D_FF:b2v_inst10|Q         ; 0                 ; 0       ;
+;      - D_FF:b2v_inst14|Q         ; 0                 ; 0       ;
+;      - D_FF:b2v_inst15|Q         ; 0                 ; 0       ;
+;      - D_FF:b2v_inst16|Q         ; 0                 ; 0       ;
+;      - D_FF:b2v_inst17|Q         ; 0                 ; 0       ;
+;      - D_FF:b2v_inst18|Q         ; 0                 ; 0       ;
+;      - D_FF:b2v_inst19|Q         ; 0                 ; 0       ;
+;      - D_FF:b2v_inst2|Q          ; 0                 ; 0       ;
+;      - D_FF:b2v_inst20|Q         ; 0                 ; 0       ;
+;      - D_FF:b2v_inst21|Q         ; 0                 ; 0       ;
+;      - D_FF:b2v_inst22|Q         ; 0                 ; 0       ;
+;      - D_FF:b2v_inst23|Q         ; 0                 ; 0       ;
+;      - D_FF:b2v_inst24|Q         ; 0                 ; 0       ;
+;      - D_FF:b2v_inst25|Q         ; 0                 ; 0       ;
+;      - D_FF:b2v_inst26|Q         ; 0                 ; 0       ;
+;      - D_FF:b2v_inst27|Q         ; 0                 ; 0       ;
+; A3                               ;                   ;         ;
+;      - D_FF:b2v_inst22|Q         ; 0                 ; 6       ;
+; B3                               ;                   ;         ;
+;      - D_FF:b2v_inst18|Q         ; 0                 ; 6       ;
+; B2                               ;                   ;         ;
+;      - D_FF:b2v_inst19|Q~feeder  ; 0                 ; 6       ;
+; A2                               ;                   ;         ;
+;      - D_FF:b2v_inst23|Q         ; 0                 ; 6       ;
+; B1                               ;                   ;         ;
+;      - D_FF:b2v_inst16|Q         ; 0                 ; 6       ;
+; A1                               ;                   ;         ;
+;      - D_FF:b2v_inst21|Q         ; 1                 ; 6       ;
+; A0                               ;                   ;         ;
+;      - D_FF:b2v_inst20|Q~feeder  ; 0                 ; 6       ;
+; B0                               ;                   ;         ;
+;      - D_FF:b2v_inst17|Q~feeder  ; 0                 ; 6       ;
++----------------------------------+-------------------+---------+
 
 
 +------------------------------------------------------------------------------------------------------------------+
@@ -1302,50 +1302,50 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +------+----------+---------+-------+--------+----------------------+------------------+---------------------------+
 
 
-+----------------------------------+
-; Non-Global High Fan-Out Signals  ;
-+------------------------+---------+
-; Name                   ; Fan-Out ;
-+------------------------+---------+
-; CLK~input              ; 16      ;
-; ParteC_FA:inst5|f      ; 3       ;
-; D_FF:inst22|Q          ; 3       ;
-; ParteC_FA:inst4|Cout~1 ; 3       ;
-; D_FF:inst17|Q          ; 3       ;
-; D_FF:inst20|Q          ; 3       ;
-; ParteC_FA:inst4|Cout~0 ; 3       ;
-; D_FF:inst19|Q          ; 3       ;
-; D_FF:inst23|Q          ; 3       ;
-; D_FF:inst18|Q          ; 3       ;
-; Cin~input              ; 2       ;
-; ParteC_FA:inst|f~0     ; 2       ;
-; ParteC_FA:inst4|f~0    ; 2       ;
-; ParteC_FA:inst3|f      ; 2       ;
-; ParteC_FA:inst3|Cout~0 ; 2       ;
-; D_FF:inst16|Q          ; 2       ;
-; D_FF:inst21|Q          ; 2       ;
-; ParteC_FA:inst|Cout~1  ; 2       ;
-; ParteC_FA:inst|Cout~0  ; 2       ;
-; A3~input               ; 1       ;
-; B1~input               ; 1       ;
-; A1~input               ; 1       ;
-; B0~input               ; 1       ;
-; A0~input               ; 1       ;
-; B2~input               ; 1       ;
-; A2~input               ; 1       ;
-; B3~input               ; 1       ;
-; ParteC_FA:inst5|Cout~0 ; 1       ;
-; inst6                  ; 1       ;
-; inst7~0                ; 1       ;
-; D_FF:inst27|Q          ; 1       ;
-; D_FF:inst26|Q          ; 1       ;
-; D_FF:inst25|Q          ; 1       ;
-; D_FF:inst24|Q          ; 1       ;
-; D_FF:inst2|Q           ; 1       ;
-; D_FF:inst10|Q          ; 1       ;
-; D_FF:inst14|Q          ; 1       ;
-; D_FF:inst15|Q          ; 1       ;
-+------------------------+---------+
++--------------------------------------+
+; Non-Global High Fan-Out Signals      ;
++----------------------------+---------+
+; Name                       ; Fan-Out ;
++----------------------------+---------+
+; CLK~input                  ; 16      ;
+; ParteC_FA:b2v_inst5|f      ; 3       ;
+; ParteC_FA:b2v_inst4|Cout~2 ; 3       ;
+; ParteC_FA:b2v_inst|Cout~0  ; 3       ;
+; D_FF:b2v_inst21|Q          ; 3       ;
+; D_FF:b2v_inst16|Q          ; 3       ;
+; ParteC_FA:b2v_inst4|Cout~0 ; 3       ;
+; D_FF:b2v_inst23|Q          ; 3       ;
+; D_FF:b2v_inst19|Q          ; 3       ;
+; D_FF:b2v_inst18|Q          ; 3       ;
+; D_FF:b2v_inst22|Q          ; 3       ;
+; Cin~input                  ; 2       ;
+; ParteC_FA:b2v_inst4|f      ; 2       ;
+; ParteC_FA:b2v_inst|f~0     ; 2       ;
+; ParteC_FA:b2v_inst3|f      ; 2       ;
+; D_FF:b2v_inst17|Q          ; 2       ;
+; D_FF:b2v_inst20|Q          ; 2       ;
+; B0~input                   ; 1       ;
+; A0~input                   ; 1       ;
+; A1~input                   ; 1       ;
+; B1~input                   ; 1       ;
+; A2~input                   ; 1       ;
+; B2~input                   ; 1       ;
+; B3~input                   ; 1       ;
+; A3~input                   ; 1       ;
+; ParteC_FA:b2v_inst5|Cout~0 ; 1       ;
+; SYNTHESIZED_WIRE_6~0       ; 1       ;
+; ParteC_FA:b2v_inst4|f~0    ; 1       ;
+; SYNTHESIZED_WIRE_7~0       ; 1       ;
+; ParteC_FA:b2v_inst4|Cout~1 ; 1       ;
+; D_FF:b2v_inst27|Q          ; 1       ;
+; D_FF:b2v_inst26|Q          ; 1       ;
+; D_FF:b2v_inst25|Q          ; 1       ;
+; D_FF:b2v_inst24|Q          ; 1       ;
+; D_FF:b2v_inst2|Q           ; 1       ;
+; D_FF:b2v_inst10|Q          ; 1       ;
+; D_FF:b2v_inst14|Q          ; 1       ;
+; D_FF:b2v_inst15|Q          ; 1       ;
++----------------------------+---------+
 
 
 +------------------------------------------------------+
@@ -1353,14 +1353,14 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +-----------------------------+------------------------+
 ; Other Routing Resource Type ; Usage                  ;
 +-----------------------------+------------------------+
-; Block interconnects         ; 25 / 342,891 ( < 1 % ) ;
-; C16 interconnects           ; 31 / 10,120 ( < 1 % )  ;
-; C4 interconnects            ; 12 / 209,544 ( < 1 % ) ;
-; Direct links                ; 5 / 342,891 ( < 1 % )  ;
+; Block interconnects         ; 28 / 342,891 ( < 1 % ) ;
+; C16 interconnects           ; 18 / 10,120 ( < 1 % )  ;
+; C4 interconnects            ; 67 / 209,544 ( < 1 % ) ;
+; Direct links                ; 8 / 342,891 ( < 1 % )  ;
 ; Global clocks               ; 0 / 20 ( 0 % )         ;
 ; Local interconnects         ; 13 / 119,088 ( < 1 % ) ;
-; R24 interconnects           ; 24 / 9,963 ( < 1 % )   ;
-; R4 interconnects            ; 28 / 289,782 ( < 1 % ) ;
+; R24 interconnects           ; 20 / 9,963 ( < 1 % )   ;
+; R4 interconnects            ; 44 / 289,782 ( < 1 % ) ;
 +-----------------------------+------------------------+
 
 
@@ -1544,14 +1544,14 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ; F3                 ; Pass      ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ;
 ; Cin                ; Pass      ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ;
 ; CLK                ; Pass      ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ;
+; A3                 ; Pass      ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ;
 ; B3                 ; Pass      ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ;
-; A2                 ; Pass      ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ;
 ; B2                 ; Pass      ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ;
+; A2                 ; Pass      ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ;
+; B1                 ; Pass      ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ;
+; A1                 ; Pass      ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ;
 ; A0                 ; Pass      ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ;
 ; B0                 ; Pass      ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ;
-; A1                 ; Pass      ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ;
-; B1                 ; Pass      ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ;
-; A3                 ; Pass      ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ;
 +--------------------+-----------+--------------+-----------+--------------+--------------+-----------+-----------+--------------+-----------+-----------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+-----------+--------------+--------------+
 
 
@@ -1625,7 +1625,7 @@ Info (332130): Timing requirements not specified -- quality metrics such as perf
 Info (176233): Starting register packing
 Info (176235): Finished register packing
     Extra Info (176219): No registers were packed into other blocks
-Info (171121): Fitter preparation operations ending: elapsed time is 00:00:03
+Info (171121): Fitter preparation operations ending: elapsed time is 00:00:04
 Info (170189): Fitter placement preparation operations beginning
 Info (170190): Fitter placement preparation operations ending: elapsed time is 00:00:00
 Info (170191): Fitter placement operations beginning
@@ -1634,21 +1634,21 @@ Info (170192): Fitter placement operations ending: elapsed time is 00:00:01
 Info (170193): Fitter routing operations beginning
 Info (170195): Router estimated average interconnect usage is 0% of the available device resources
     Info (170196): Router estimated peak interconnect usage is 0% of the available device resources in the region that extends from location X58_Y0 to location X68_Y11
-Info (170194): Fitter routing operations ending: elapsed time is 00:00:01
+Info (170194): Fitter routing operations ending: elapsed time is 00:00:02
 Info (170199): The Fitter performed an Auto Fit compilation.  Optimizations were skipped to reduce compilation time.
     Info (170201): Optimizations that may affect the design's routability were skipped
-Info (11888): Total time spent on timing analysis during the Fitter is 0.09 seconds.
+Info (11888): Total time spent on timing analysis during the Fitter is 0.16 seconds.
 Info (334003): Started post-fitting delay annotation
 Info (334004): Delay annotation completed successfully
 Info (334003): Started post-fitting delay annotation
 Info (334004): Delay annotation completed successfully
-Info (11218): Fitter post-fit operations ending: elapsed time is 00:00:01
+Info (11218): Fitter post-fit operations ending: elapsed time is 00:00:03
 Info (144001): Generated suppressed messages file C:/Users/Usuario/Documents/Ingenieria 2022/TYDD 2/Lab 2/Resolucion/P_C/output_files/ParteC.fit.smsg
 Info: Quartus II 64-Bit Fitter was successful. 0 errors, 4 warnings
     Info: Peak virtual memory: 5041 megabytes
-    Info: Processing ended: Tue Nov 22 13:32:47 2022
-    Info: Elapsed time: 00:00:18
-    Info: Total CPU time (on all processors): 00:00:18
+    Info: Processing ended: Thu Nov 24 15:47:19 2022
+    Info: Elapsed time: 00:00:27
+    Info: Total CPU time (on all processors): 00:00:23
 
 
 +----------------------------+

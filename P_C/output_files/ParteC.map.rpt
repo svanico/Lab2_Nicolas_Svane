@@ -1,5 +1,5 @@
 Analysis & Synthesis report for ParteC
-Tue Nov 22 13:32:28 2022
+Thu Nov 24 15:46:51 2022
 Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
 
 
@@ -41,7 +41,7 @@ applicable agreement for further details.
 +--------------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                         ;
 +------------------------------------+-------------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Tue Nov 22 13:32:28 2022           ;
+; Analysis & Synthesis Status        ; Successful - Thu Nov 24 15:46:51 2022           ;
 ; Quartus II 64-Bit Version          ; 13.0.1 Build 232 06/12/2013 SP 1 SJ Web Edition ;
 ; Revision Name                      ; ParteC                                          ;
 ; Top-level Entity Name              ; Esquematico_C                                   ;
@@ -156,15 +156,15 @@ Parallel compilation was disabled, but you have multiple processors available. E
 +----------------------------+--------+
 
 
-+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Source Files Read                                                                                                                                                       ;
-+----------------------------------+-----------------+------------------------------------+------------------------------------------------------------------------------------------+---------+
-; File Name with User-Entered Path ; Used in Netlist ; File Type                          ; File Name with Absolute Path                                                             ; Library ;
-+----------------------------------+-----------------+------------------------------------+------------------------------------------------------------------------------------------+---------+
-; Esquematico_C.bdf                ; yes             ; User Block Diagram/Schematic File  ; C:/Users/Usuario/Documents/Ingenieria 2022/TYDD 2/Lab 2/Resolucion/P_C/Esquematico_C.bdf ;         ;
-; ParteC_FA.vhd                    ; yes             ; User VHDL File                     ; C:/Users/Usuario/Documents/Ingenieria 2022/TYDD 2/Lab 2/Resolucion/P_C/ParteC_FA.vhd     ;         ;
-; D_FF.vhd                         ; yes             ; User VHDL File                     ; C:/Users/Usuario/Documents/Ingenieria 2022/TYDD 2/Lab 2/Resolucion/P_C/D_FF.vhd          ;         ;
-+----------------------------------+-----------------+------------------------------------+------------------------------------------------------------------------------------------+---------+
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                                                    ;
++----------------------------------+-----------------+-----------------+------------------------------------------------------------------------------------------+---------+
+; File Name with User-Entered Path ; Used in Netlist ; File Type       ; File Name with Absolute Path                                                             ; Library ;
++----------------------------------+-----------------+-----------------+------------------------------------------------------------------------------------------+---------+
+; Esquematico_C.vhd                ; yes             ; User VHDL File  ; C:/Users/Usuario/Documents/Ingenieria 2022/TYDD 2/Lab 2/Resolucion/P_C/Esquematico_C.vhd ;         ;
+; ParteC_FA.vhd                    ; yes             ; User VHDL File  ; C:/Users/Usuario/Documents/Ingenieria 2022/TYDD 2/Lab 2/Resolucion/P_C/ParteC_FA.vhd     ;         ;
+; D_FF.vhd                         ; yes             ; User VHDL File  ; C:/Users/Usuario/Documents/Ingenieria 2022/TYDD 2/Lab 2/Resolucion/P_C/D_FF.vhd          ;         ;
++----------------------------------+-----------------+-----------------+------------------------------------------------------------------------------------------+---------+
 
 
 +---------------------------------------------------------+
@@ -177,8 +177,8 @@ Parallel compilation was disabled, but you have multiple processors available. E
 ; Total combinational functions               ; 12        ;
 ; Logic element usage by number of LUT inputs ;           ;
 ;     -- 4 input functions                    ; 6         ;
-;     -- 3 input functions                    ; 4         ;
-;     -- <=2 input functions                  ; 2         ;
+;     -- 3 input functions                    ; 3         ;
+;     -- <=2 input functions                  ; 3         ;
 ;                                             ;           ;
 ; Logic elements by mode                      ;           ;
 ;     -- normal mode                          ; 12        ;
@@ -192,38 +192,38 @@ Parallel compilation was disabled, but you have multiple processors available. E
 ; Embedded Multiplier 9-bit elements          ; 0         ;
 ; Maximum fan-out node                        ; CLK~input ;
 ; Maximum fan-out                             ; 16        ;
-; Total fan-out                               ; 98        ;
-; Average fan-out                             ; 1.53      ;
+; Total fan-out                               ; 97        ;
+; Average fan-out                             ; 1.52      ;
 +---------------------------------------------+-----------+
 
 
-+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Resource Utilization by Entity                                                                                                                                    ;
-+----------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+--------------------------------+--------------+
-; Compilation Hierarchy Node ; LC Combinationals ; LC Registers ; Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; Full Hierarchy Name            ; Library Name ;
-+----------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+--------------------------------+--------------+
-; |Esquematico_C             ; 12 (2)            ; 16 (0)       ; 0           ; 0            ; 0       ; 0         ; 18   ; 0            ; |Esquematico_C                 ; work         ;
-;    |D_FF:inst10|           ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Esquematico_C|D_FF:inst10     ; work         ;
-;    |D_FF:inst14|           ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Esquematico_C|D_FF:inst14     ; work         ;
-;    |D_FF:inst15|           ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Esquematico_C|D_FF:inst15     ; work         ;
-;    |D_FF:inst16|           ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Esquematico_C|D_FF:inst16     ; work         ;
-;    |D_FF:inst17|           ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Esquematico_C|D_FF:inst17     ; work         ;
-;    |D_FF:inst18|           ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Esquematico_C|D_FF:inst18     ; work         ;
-;    |D_FF:inst19|           ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Esquematico_C|D_FF:inst19     ; work         ;
-;    |D_FF:inst20|           ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Esquematico_C|D_FF:inst20     ; work         ;
-;    |D_FF:inst21|           ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Esquematico_C|D_FF:inst21     ; work         ;
-;    |D_FF:inst22|           ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Esquematico_C|D_FF:inst22     ; work         ;
-;    |D_FF:inst23|           ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Esquematico_C|D_FF:inst23     ; work         ;
-;    |D_FF:inst24|           ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Esquematico_C|D_FF:inst24     ; work         ;
-;    |D_FF:inst25|           ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Esquematico_C|D_FF:inst25     ; work         ;
-;    |D_FF:inst26|           ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Esquematico_C|D_FF:inst26     ; work         ;
-;    |D_FF:inst27|           ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Esquematico_C|D_FF:inst27     ; work         ;
-;    |D_FF:inst2|            ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Esquematico_C|D_FF:inst2      ; work         ;
-;    |ParteC_FA:inst3|       ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Esquematico_C|ParteC_FA:inst3 ; work         ;
-;    |ParteC_FA:inst4|       ; 3 (3)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Esquematico_C|ParteC_FA:inst4 ; work         ;
-;    |ParteC_FA:inst5|       ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Esquematico_C|ParteC_FA:inst5 ; work         ;
-;    |ParteC_FA:inst|        ; 3 (3)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Esquematico_C|ParteC_FA:inst  ; work         ;
-+----------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+--------------------------------+--------------+
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Resource Utilization by Entity                                                                                                                                        ;
++----------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+------------------------------------+--------------+
+; Compilation Hierarchy Node ; LC Combinationals ; LC Registers ; Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; Full Hierarchy Name                ; Library Name ;
++----------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+------------------------------------+--------------+
+; |Esquematico_C             ; 12 (2)            ; 16 (0)       ; 0           ; 0            ; 0       ; 0         ; 18   ; 0            ; |Esquematico_C                     ; work         ;
+;    |D_FF:b2v_inst10|       ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Esquematico_C|D_FF:b2v_inst10     ; work         ;
+;    |D_FF:b2v_inst14|       ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Esquematico_C|D_FF:b2v_inst14     ; work         ;
+;    |D_FF:b2v_inst15|       ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Esquematico_C|D_FF:b2v_inst15     ; work         ;
+;    |D_FF:b2v_inst16|       ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Esquematico_C|D_FF:b2v_inst16     ; work         ;
+;    |D_FF:b2v_inst17|       ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Esquematico_C|D_FF:b2v_inst17     ; work         ;
+;    |D_FF:b2v_inst18|       ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Esquematico_C|D_FF:b2v_inst18     ; work         ;
+;    |D_FF:b2v_inst19|       ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Esquematico_C|D_FF:b2v_inst19     ; work         ;
+;    |D_FF:b2v_inst20|       ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Esquematico_C|D_FF:b2v_inst20     ; work         ;
+;    |D_FF:b2v_inst21|       ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Esquematico_C|D_FF:b2v_inst21     ; work         ;
+;    |D_FF:b2v_inst22|       ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Esquematico_C|D_FF:b2v_inst22     ; work         ;
+;    |D_FF:b2v_inst23|       ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Esquematico_C|D_FF:b2v_inst23     ; work         ;
+;    |D_FF:b2v_inst24|       ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Esquematico_C|D_FF:b2v_inst24     ; work         ;
+;    |D_FF:b2v_inst25|       ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Esquematico_C|D_FF:b2v_inst25     ; work         ;
+;    |D_FF:b2v_inst26|       ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Esquematico_C|D_FF:b2v_inst26     ; work         ;
+;    |D_FF:b2v_inst27|       ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Esquematico_C|D_FF:b2v_inst27     ; work         ;
+;    |D_FF:b2v_inst2|        ; 0 (0)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Esquematico_C|D_FF:b2v_inst2      ; work         ;
+;    |ParteC_FA:b2v_inst3|   ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Esquematico_C|ParteC_FA:b2v_inst3 ; work         ;
+;    |ParteC_FA:b2v_inst4|   ; 5 (5)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Esquematico_C|ParteC_FA:b2v_inst4 ; work         ;
+;    |ParteC_FA:b2v_inst5|   ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Esquematico_C|ParteC_FA:b2v_inst5 ; work         ;
+;    |ParteC_FA:b2v_inst|    ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Esquematico_C|ParteC_FA:b2v_inst  ; work         ;
++----------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+------------------------------------+--------------+
 Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
 
 
@@ -257,10 +257,11 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 Info: *******************************************************************
 Info: Running Quartus II 64-Bit Analysis & Synthesis
     Info: Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
-    Info: Processing started: Tue Nov 22 13:32:25 2022
+    Info: Processing started: Thu Nov 24 15:46:45 2022
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off ParteC -c ParteC
 Warning (20028): Parallel compilation is not licensed and has been disabled
-Info (12021): Found 1 design units, including 1 entities, in source file esquematico_c.bdf
+Info (12021): Found 2 design units, including 1 entities, in source file esquematico_c.vhd
+    Info (12022): Found design unit 1: Esquematico_C-bdf_type
     Info (12023): Found entity 1: Esquematico_C
 Info (12021): Found 2 design units, including 1 entities, in source file partec_fa.vhd
     Info (12022): Found design unit 1: ParteC_FA-behavioural
@@ -269,11 +270,8 @@ Info (12021): Found 2 design units, including 1 entities, in source file d_ff.vh
     Info (12022): Found design unit 1: D_FF-arch
     Info (12023): Found entity 1: D_FF
 Info (12127): Elaborating entity "Esquematico_C" for the top level hierarchy
-Warning (275011): Block or symbol "NOT" of instance "inst12" overlaps another block or symbol
-Warning (275011): Block or symbol "D_FF" of instance "inst24" overlaps another block or symbol
-Warning (275011): Block or symbol "D_FF" of instance "inst26" overlaps another block or symbol
-Info (12128): Elaborating entity "D_FF" for hierarchy "D_FF:inst15"
-Info (12128): Elaborating entity "ParteC_FA" for hierarchy "ParteC_FA:inst5"
+Info (12128): Elaborating entity "ParteC_FA" for hierarchy "ParteC_FA:b2v_inst"
+Info (12128): Elaborating entity "D_FF" for hierarchy "D_FF:b2v_inst10"
 Info (286030): Timing-Driven Synthesis is running
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
@@ -281,10 +279,10 @@ Info (21057): Implemented 43 device resources after synthesis - the final resour
     Info (21058): Implemented 10 input pins
     Info (21059): Implemented 8 output pins
     Info (21061): Implemented 25 logic cells
-Info: Quartus II 64-Bit Analysis & Synthesis was successful. 0 errors, 4 warnings
-    Info: Peak virtual memory: 4642 megabytes
-    Info: Processing ended: Tue Nov 22 13:32:28 2022
-    Info: Elapsed time: 00:00:03
+Info: Quartus II 64-Bit Analysis & Synthesis was successful. 0 errors, 1 warning
+    Info: Peak virtual memory: 4638 megabytes
+    Info: Processing ended: Thu Nov 24 15:46:51 2022
+    Info: Elapsed time: 00:00:06
     Info: Total CPU time (on all processors): 00:00:02
 
 

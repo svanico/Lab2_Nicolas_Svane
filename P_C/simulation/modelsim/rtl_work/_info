@@ -19,7 +19,7 @@ VZB^M0mMI;?g>4cCYEBm;83
 Z9 OV;C;10.1d;51
 31
 !i10b 1
-Z10 !s108 1669135775.490000
+Z10 !s108 1669315836.553000
 Z11 !s90 -reportprogress|300|-93|-work|work|C:/Users/Usuario/Documents/Ingenieria 2022/TYDD 2/Lab 2/Resolucion/P_C/D_FF.vhd|
 Z12 !s107 C:/Users/Usuario/Documents/Ingenieria 2022/TYDD 2/Lab 2/Resolucion/P_C/D_FF.vhd|
 Z13 o-93 -work work -O0
@@ -42,21 +42,56 @@ R11
 R12
 R13
 R14
-Epartec_fa
-Z15 w1668784948
+Eesquematico_c
+Z15 w1669136042
 R4
 R5
 R6
-Z16 8C:/Users/Usuario/Documents/Ingenieria 2022/TYDD 2/Lab 2/Resolucion/P_C/ParteC_FA.vhd
-Z17 FC:/Users/Usuario/Documents/Ingenieria 2022/TYDD 2/Lab 2/Resolucion/P_C/ParteC_FA.vhd
+Z16 8C:/Users/Usuario/Documents/Ingenieria 2022/TYDD 2/Lab 2/Resolucion/P_C/Esquematico_C.vhd
+Z17 FC:/Users/Usuario/Documents/Ingenieria 2022/TYDD 2/Lab 2/Resolucion/P_C/Esquematico_C.vhd
+l0
+L24
+VU[fL8MH]koI?Y_SPmHz:E1
+R9
+31
+Z18 !s108 1669315836.296000
+Z19 !s90 -reportprogress|300|-93|-work|work|C:/Users/Usuario/Documents/Ingenieria 2022/TYDD 2/Lab 2/Resolucion/P_C/Esquematico_C.vhd|
+Z20 !s107 C:/Users/Usuario/Documents/Ingenieria 2022/TYDD 2/Lab 2/Resolucion/P_C/Esquematico_C.vhd|
+R13
+R14
+!s100 OlMcD06Q^jEZE>^GGBN8e2
+!i10b 1
+Abdf_type
+R4
+R5
+DEx4 work 13 esquematico_c 0 22 U[fL8MH]koI?Y_SPmHz:E1
+l92
+L48
+VMBNfa:LIARfV9cLW^Ee[i1
+R9
+31
+R18
+R19
+R20
+R13
+R14
+!s100 o_K@5giQfa57d7OBGFA>T0
+!i10b 1
+Epartec_fa
+Z21 w1668784948
+R4
+R5
+R6
+Z22 8C:/Users/Usuario/Documents/Ingenieria 2022/TYDD 2/Lab 2/Resolucion/P_C/ParteC_FA.vhd
+Z23 FC:/Users/Usuario/Documents/Ingenieria 2022/TYDD 2/Lab 2/Resolucion/P_C/ParteC_FA.vhd
 l0
 L4
 V;2Ezz_<]mkGZS6j_Uhemn2
 R9
 31
-Z18 !s108 1669135775.375000
-Z19 !s90 -reportprogress|300|-93|-work|work|C:/Users/Usuario/Documents/Ingenieria 2022/TYDD 2/Lab 2/Resolucion/P_C/ParteC_FA.vhd|
-Z20 !s107 C:/Users/Usuario/Documents/Ingenieria 2022/TYDD 2/Lab 2/Resolucion/P_C/ParteC_FA.vhd|
+Z24 !s108 1669315836.412000
+Z25 !s90 -reportprogress|300|-93|-work|work|C:/Users/Usuario/Documents/Ingenieria 2022/TYDD 2/Lab 2/Resolucion/P_C/ParteC_FA.vhd|
+Z26 !s107 C:/Users/Usuario/Documents/Ingenieria 2022/TYDD 2/Lab 2/Resolucion/P_C/ParteC_FA.vhd|
 R13
 R14
 !s100 nGD6TC:eL5W3>GjHWHMjh0
@@ -70,9 +105,9 @@ L9
 VY_WOR_eimmZiTz0m7TLFk1
 R9
 31
-R18
-R19
-R20
+R24
+R25
+R26
 R13
 R14
 !s100 ?VDT^C5Td<9fUi0Bm4Mlo3

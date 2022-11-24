@@ -1,0 +1,40 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\Usuario\Documents\Ingenieria 2022\TYDD 2\Lab 2\Resolucion\P_D\simulation\modelsim
+Esec_luces
+Z1 w1669138652
+Z2 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z3 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z4 dC:\Users\Usuario\Documents\Ingenieria 2022\TYDD 2\Lab 2\Resolucion\P_D\simulation\modelsim
+Z5 8C:/Users/Usuario/Documents/Ingenieria 2022/TYDD 2/Lab 2/Resolucion/P_D/sec_luces.vhd
+Z6 FC:/Users/Usuario/Documents/Ingenieria 2022/TYDD 2/Lab 2/Resolucion/P_D/sec_luces.vhd
+l0
+L21
+V@n2e`COEJ9HZ5TT9>LeaV1
+!s100 @7k_@Bk4MQ>iRo^g[0mfX0
+Z7 OV;C;10.1d;51
+31
+!i10b 1
+Z8 !s108 1669316947.233000
+Z9 !s90 -reportprogress|300|-93|-work|work|C:/Users/Usuario/Documents/Ingenieria 2022/TYDD 2/Lab 2/Resolucion/P_D/sec_luces.vhd|
+Z10 !s107 C:/Users/Usuario/Documents/Ingenieria 2022/TYDD 2/Lab 2/Resolucion/P_D/sec_luces.vhd|
+Z11 o-93 -work work -O0
+Z12 tExplicit 1
+Abehavior
+R2
+R3
+DEx4 work 9 sec_luces 0 22 @n2e`COEJ9HZ5TT9>LeaV1
+l37
+L33
+VEmNiW5md74c2DaaI:e]Cn0
+!s100 nJ][=Gg2F<@YF;:lHCXh@2
+R7
+31
+!i10b 1
+R8
+R9
+R10
+R11
+R12
