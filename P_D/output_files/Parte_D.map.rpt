@@ -1,6 +1,6 @@
 Analysis & Synthesis report for Parte_D
-Tue Nov 22 14:47:14 2022
-Quartus II 32-bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
+Fri Nov 25 14:27:17 2022
+Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
 
 
 ---------------------
@@ -43,8 +43,8 @@ applicable agreement for further details.
 +--------------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                         ;
 +------------------------------------+-------------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Tue Nov 22 14:47:14 2022           ;
-; Quartus II 32-bit Version          ; 13.0.1 Build 232 06/12/2013 SP 1 SJ Web Edition ;
+; Analysis & Synthesis Status        ; Successful - Fri Nov 25 14:27:17 2022           ;
+; Quartus II 64-Bit Version          ; 13.0.1 Build 232 06/12/2013 SP 1 SJ Web Edition ;
 ; Revision Name                      ; Parte_D                                         ;
 ; Top-level Entity Name              ; sec_luces                                       ;
 ; Family                             ; Cyclone III                                     ;
@@ -261,9 +261,9 @@ Encoding Type:  Sequential Encoding
 ; Analysis & Synthesis Messages ;
 +-------------------------------+
 Info: *******************************************************************
-Info: Running Quartus II 32-bit Analysis & Synthesis
+Info: Running Quartus II 64-Bit Analysis & Synthesis
     Info: Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
-    Info: Processing started: Tue Nov 22 14:47:11 2022
+    Info: Processing started: Fri Nov 25 14:27:14 2022
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off Parte_D -c Parte_D
 Warning (20028): Parallel compilation is not licensed and has been disabled
 Info (12021): Found 2 design units, including 1 entities, in source file sec_luces.vhd
@@ -277,9 +277,9 @@ Info (21057): Implemented 15 device resources after synthesis - the final resour
     Info (21058): Implemented 3 input pins
     Info (21059): Implemented 4 output pins
     Info (21061): Implemented 8 logic cells
-Info: Quartus II 32-bit Analysis & Synthesis was successful. 0 errors, 1 warning
-    Info: Peak virtual memory: 381 megabytes
-    Info: Processing ended: Tue Nov 22 14:47:14 2022
+Info: Quartus II 64-Bit Analysis & Synthesis was successful. 0 errors, 1 warning
+    Info: Peak virtual memory: 4638 megabytes
+    Info: Processing ended: Fri Nov 25 14:27:17 2022
     Info: Elapsed time: 00:00:03
     Info: Total CPU time (on all processors): 00:00:02
 

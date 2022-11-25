@@ -44,11 +44,12 @@
 # ** Warning: [4] C:/Users/Usuario/Documents/Ingenieria 2022/TYDD 2/Lab 2/Resolucion/P_B/Full_Adder_test.vhd(42): (vcom-1207) An abstract literal and an identifier must have a separator between them.
 # ** Warning: [4] C:/Users/Usuario/Documents/Ingenieria 2022/TYDD 2/Lab 2/Resolucion/P_B/Full_Adder_test.vhd(43): (vcom-1207) An abstract literal and an identifier must have a separator between them.
 # 
-# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cycloneiii -L rtl_work -L work -voptargs="+acc"  Full_Adder
-# vsim -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cycloneiii -L rtl_work -L work -voptargs=\"+acc\" -t 1ps Full_Adder 
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cycloneiii -L rtl_work -L work -voptargs="+acc"  Full_Adder_test
+# vsim -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cycloneiii -L rtl_work -L work -voptargs=\"+acc\" -t 1ps Full_Adder_test 
 # Loading std.standard
 # Loading std.textio(body)
 # Loading ieee.std_logic_1164(body)
+# Loading work.full_adder_test(behaviour)
 # Loading work.full_adder(arch)
 # Loading ieee.std_logic_arith(body)
 # Loading ieee.std_logic_unsigned(body)

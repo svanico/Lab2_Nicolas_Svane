@@ -3,7 +3,7 @@ use IEEE.STD_LOGIC_1164.all;
 
 entity testA is end testA;
 architecture testarch of testA is 
-	component ParteA_NOR
+	component ParteA
 	port(sw1,sw2: in std_logic;
 	LED: out std_logic);
 	end component;
@@ -14,7 +14,7 @@ architecture testarch of testA is
 	signal LED: std_logic;
 	
 begin
-	uut: parteA_NOR 
+	uut: ParteA 
 	port map (sw1=>sw1,sw2=>sw2,LED=>LED);
 	
 	stim_proc: process
